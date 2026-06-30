@@ -43,7 +43,7 @@ variable <strong>y</strong> is both a variable and a connector.
   block IntegerExpression
     "Set output signal to a time varying Integer expression"
 
-    Modelica.Blocks.Interfaces.IntegerOutput y=0 "Value of Integer output"
+    Modelica.Blocks.Interfaces.IntegerOutput y = 0 "Value of Integer output"
       annotation (Dialog(group="Time varying output signal"), Placement(
           transformation(extent={{100,-10},{120,10}})));
 
