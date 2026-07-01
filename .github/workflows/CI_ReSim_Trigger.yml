@@ -1,17 +1,10 @@
-name: CI_ReSim_Trigger
+name: Sync_CI_Repo
 
 on: pull_request_target
 
 permissions:
   contents: read
-  actions: write
   
-env:
-    EVENT_NUMBER:  ${{ github.event.client_payload.number }}
-    BASE_SHA: ${{ github.event.client_payload.base_sha }}
-    PR_SHA: ${{ github.event.client_payload.head_sha }}
-    REPO_NAME: ${{ github.event.client_payload.github_repo }}
-    
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -29,12 +22,6 @@ jobs:
                 number: context.payload.number,
                 head_sha: pr.head?.sha ?? null,
                 base_sha: pr.base?.sha ?? null,
-                github_repo: context.repo.full_name 
+                github_repo: context.client_payload.github_repo 
               }
             });
-      - name: echo envs
-        run: |
-          echo ${{ env.EVENT_NUMBER }}
-          echo ${{ env.BASE_SHA }}
-          echo ${{ env.PR_SHA }}
-          echo ${{ env.REPO_NAME }}
