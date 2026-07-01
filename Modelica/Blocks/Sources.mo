@@ -7,7 +7,7 @@ package Sources
 
   block RealExpression "Set output signal to a time varying Real expression"
 
-    Modelica.Blocks.Interfaces.RealOutput y=0.0 "Value of Real output"
+    Modelica.Blocks.Interfaces.RealOutput y = 0.0 "Value of Real output"
       annotation (Dialog(group="Time varying output signal"), Placement(
           transformation(extent={{100,-10},{120,10}})));
 
