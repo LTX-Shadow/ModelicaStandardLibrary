@@ -162,7 +162,7 @@ The Real output y is a clock signal:
   end ContinuousClock;
 
   block Constant "Generate constant signal of type Real"
-    parameter Real k(start=1) "Constant output value"
+    parameter Real k(start = 1) "Constant output value"
     annotation(Dialog(groupImage="modelica://Modelica/Resources/Images/Blocks/Sources/Constant.png"));
     extends Interfaces.SO;
 
