@@ -79,7 +79,7 @@ variable <strong>y</strong> is both a variable and a connector.
   block BooleanExpression
     "Set output signal to a time varying Boolean expression"
 
-    Modelica.Blocks.Interfaces.BooleanOutput y=false "Value of Boolean output"
+    Modelica.Blocks.Interfaces.BooleanOutput y = false "Value of Boolean output"
       annotation (Dialog(group="Time varying output signal"), Placement(
           transformation(extent={{100,-10},{120,10}})));
 
