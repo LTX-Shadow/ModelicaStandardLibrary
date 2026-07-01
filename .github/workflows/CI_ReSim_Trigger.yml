@@ -32,3 +32,9 @@ jobs:
                 github_repo: context.repo.full_name 
               }
             });
+      - name: echo envs
+        run: |
+          echo ${{ env.EVENT_NUMBER }}
+          echo ${{ env.BASE_SHA }}
+          echo ${{ env.PR_SHA }}
+          echo ${{ env.REPO_NAME }}
