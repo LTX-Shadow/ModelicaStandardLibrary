@@ -45,7 +45,7 @@ variable <strong>y</strong> is both a variable and a connector.
 
     Modelica.Blocks.Interfaces.IntegerOutput y = 0 "Value of Integer output"
       annotation (Dialog(group="Time varying output signal"), Placement(
-          transformation(extent={{100,-10},{120,10}})));
+          transformation(extent = {{100,-10},{120,10}})));
 
     annotation (Icon(coordinateSystem(
           preserveAspectRatio=false,
