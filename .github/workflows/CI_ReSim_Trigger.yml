@@ -22,6 +22,6 @@ jobs:
                 number: context.payload.number,
                 head_sha: pr.head?.sha ?? null,
                 base_sha: pr.base?.sha ?? null,
-                github_repo: context.client_payload.github_repo 
+                github_repo: context.repo.full_name 
               }
             });
