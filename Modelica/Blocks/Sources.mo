@@ -7,7 +7,7 @@ package Sources
 
   block RealExpression "Set output signal to a time varying Real expression"
 
-    Modelica.Blocks.Interfaces.RealOutput y=0.0 "Value of Real output"
+    Modelica.Blocks.Interfaces.RealOutput y = 0.0 "Value of Real output"
       annotation (Dialog(group="Time varying output signal"), Placement(
           transformation(extent={{100,-10},{120,10}})));
 
@@ -43,13 +43,13 @@ variable <strong>y</strong> is both a variable and a connector.
   block IntegerExpression
     "Set output signal to a time varying Integer expression"
 
-    Modelica.Blocks.Interfaces.IntegerOutput y=0 "Value of Integer output"
+    Modelica.Blocks.Interfaces.IntegerOutput y = 0 "Value of Integer output"
       annotation (Dialog(group="Time varying output signal"), Placement(
-          transformation(extent={{100,-10},{120,10}})));
+          transformation(extent = {{100,-10},{120,10}})));
 
     annotation (Icon(coordinateSystem(
           preserveAspectRatio=false,
-          extent={{-100,-100},{100,100}}), graphics={
+          extent = {{-100,-100},{100,100}}), graphics = {
           Rectangle(
             extent={{-100,40},{100,-40}},
             fillColor={235,235,235},
@@ -79,8 +79,8 @@ variable <strong>y</strong> is both a variable and a connector.
   block BooleanExpression
     "Set output signal to a time varying Boolean expression"
 
-    Modelica.Blocks.Interfaces.BooleanOutput y=false "Value of Boolean output"
-      annotation (Dialog(group="Time varying output signal"), Placement(
+    Modelica.Blocks.Interfaces.BooleanOutput y = false "Value of Boolean output"
+      annotation (Dialog(group = "Time varying output signal"), Placement(
           transformation(extent={{100,-10},{120,10}})));
 
     annotation (Icon(coordinateSystem(
@@ -162,7 +162,7 @@ The Real output y is a clock signal:
   end ContinuousClock;
 
   block Constant "Generate constant signal of type Real"
-    parameter Real k(start=1) "Constant output value"
+    parameter Real k(start = 1) "Constant output value"
     annotation(Dialog(groupImage="modelica://Modelica/Resources/Images/Blocks/Sources/Constant.png"));
     extends Interfaces.SO;
 
