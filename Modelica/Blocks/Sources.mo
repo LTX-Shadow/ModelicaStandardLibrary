@@ -49,7 +49,7 @@ variable <strong>y</strong> is both a variable and a connector.
 
     annotation (Icon(coordinateSystem(
           preserveAspectRatio=false,
-          extent={{-100,-100},{100,100}}), graphics={
+          extent = {{-100,-100},{100,100}}), graphics = {
           Rectangle(
             extent={{-100,40},{100,-40}},
             fillColor={235,235,235},
