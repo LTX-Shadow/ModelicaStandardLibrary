@@ -11,12 +11,12 @@ jobs:
     steps:
 
       - name: "Checkout Repository"
-        uses: "actions/checkout@v4.0.0"
+        uses: "actions/checkout@v6"
         with:
           fetch-depth: 0
       - name: "Scan Repository"
         id: virus-scan
-        uses: "hugoalh/scan-virus-ghaction@v0.20.0"
+        uses: "hugoalh/scan-virus-ghaction@v0.20.1"
         with:
           git_ignores: |-
             Param($GitCommitMeta)
@@ -25,12 +25,25 @@ jobs:
               ($GitCommit.AuthorDate -lt ([DateTime]::Parse('2022-01-01T00:00:00Z')) -and $GitCommit.AuthorName -imatch '^octocat$')
             )
           git_limit: 1
-      
+          
+      - name: Get base commit hash
+        id: get-base
+        run: |
+          # For pull requests, get the base commit hash
+          if [ -n "$GITHUB_BASE_REF" ]; then
+            BASE_COMMIT=$(git rev-parse origin/$GITHUB_BASE_REF)
+            echo "base_commit=$BASE_COMMIT" >> $GITHUB_OUTPUT
+          else
+            # For direct pushes, compare with previous commit
+            BASE_COMMIT=$(git rev-parse HEAD^)
+            echo "base_commit=$BASE_COMMIT" >> $GITHUB_OUTPUT
+          fi
+
       - name: Check for modified .c files
         id: check-c-changes
         run: |
-          # Get list of modified .c files between current HEAD and previous commit
-          MODIFIED_C_FILES=$(git diff --name-only HEAD^ HEAD | grep '\.c$' || true)
+          # Compare current commit with base commit
+          MODIFIED_C_FILES=$(git diff --name-only ${{ steps.get-base.outputs.base_commit }} HEAD | grep '\.c$' || true)
 
           if [ -z "$MODIFIED_C_FILES" ]; then
             echo "No .c files were modified"
@@ -43,7 +56,7 @@ jobs:
       
       - name: Check for secure-c-code label
         id: check-label
-        uses: actions/github-script@v6
+        uses: actions/github-script@v9
         with:
           script: |
             const { data: pullRequests } = await github.rest.pulls.list({
