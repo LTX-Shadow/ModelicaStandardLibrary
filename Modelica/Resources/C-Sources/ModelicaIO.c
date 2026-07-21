@@ -1,4 +1,4 @@
-/* ModelicaIO.c - Array I/O functions
+/* ModelicaIO.c  -  Array I/O functions
 
    Copyright (C) 2016-2025, Modelica Association and contributors
    All rights reserved.
