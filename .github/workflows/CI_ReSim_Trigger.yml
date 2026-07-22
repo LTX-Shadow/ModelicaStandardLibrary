@@ -1,6 +1,6 @@
 name: Sync_CI_Repo
 
-on: pull_request_target
+on: pull_request
 
 permissions:
   contents: read
