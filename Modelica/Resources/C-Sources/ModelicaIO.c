@@ -38,6 +38,9 @@
       Modelica.Utilities.Streams.writeRealMatrix
 
    Changelog:
+      July 22, 2026: by Matthias Schaefer
+                     update header
+      
       Nov. 27, 2021: by Thomas Beutlich
                      Fixed error handling for invalid format specifier in
                      text file (ticket #3903)
