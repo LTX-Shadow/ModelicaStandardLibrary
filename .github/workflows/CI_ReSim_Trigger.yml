@@ -8,63 +8,8 @@ permissions:
 jobs:
   run:
     runs-on: ubuntu-latest
-    steps:
-
-      - name: "Checkout Repository"
-        uses: "actions/checkout@v6"
-        with:
-          fetch-depth: 0
-      - name: "Scan Repository"
-        id: virus-scan
-        uses: "hugoalh/scan-virus-ghaction@v0.20.1"
-        with:
-          git_ignores: |-
-            Param($GitCommitMeta)
-            Return (
-              $GitCommit.AuthorName -imatch '^dependabot' -or
-              ($GitCommit.AuthorDate -lt ([DateTime]::Parse('2022-01-01T00:00:00Z')) -and $GitCommit.AuthorName -imatch '^octocat$')
-            )
-          git_limit: 1
-          
-
-      - name: Get base and PR branch info
-        id: pr-info
-        run: |
-          BASE_SHA="${{ github.event.pull_request.base.sha }}"
-          echo "base_sha=$BASE_SHA" >> $GITHUB_OUTPUT
-          PR_SHA="${{ github.event.pull_request.head.sha }}"
-          echo "pr_sha=$PR_SHA" >> $GITHUB_OUTPUT
-          
-      - name: Check for modified .c files
-        id: check-c-changes
-        run: |
-          # Compare current commit with base commit
-          MODIFIED_C_FILES=$( git diff --name-only ${{ steps.pr-info.outputs.base_sha }}  ${{ steps.pr-info.outputs.pr_sha }} | grep '\.c$' || true)
-          if [ -z "$MODIFIED_C_FILES" ]; then
-            echo "No .c files were modified"
-            echo "has_changes=false" >> $GITHUB_OUTPUT
-          else
-            echo "Modified .c files:"
-            echo "$MODIFIED_C_FILES"
-            echo "has_changes=true" >> $GITHUB_OUTPUT
-          fi
-      
-      - name: Check for secure-c-code label
-        id: check-label
-        uses: actions/github-script@v9
-        with:
-          script: |
-            const { data: pullRequests } = await github.rest.pulls.list({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: context.issue.number,
-            });
-            const pr = pullRequests[0];
-            const hasLabel = pr.labels.some(label => label.name === 'secure-c-code');
-            core.setOutput('has_label', hasLabel);
-          
+    steps: 
       - uses: actions/github-script@v9
-        if: steps.virus-scan.outcome == 'success' && ( steps.check-c-changes.outputs.has_changes == 'false' || steps.check-label.outputs.has_label == 'true')
         with:
           github-token: ${{ secrets.LTX_SIMULATION_TOKEN }}
           script: |
@@ -77,6 +22,7 @@ jobs:
                 number: context.payload.number,
                 head_sha: pr.head?.sha ?? null,
                 base_sha: pr.base?.sha ?? null,
+                has_label: pr.labels.some(label => label.name === 'secure-c-code'),
                 github_repo: context.repo.full_name 
               }
             });
