@@ -26,26 +26,20 @@ jobs:
             )
           git_limit: 1
           
-      - name: Get base commit hash
-        id: get-base
+
+      - name: Get base and PR branch info
+        id: pr-info
         run: |
-          # For pull requests, get the base commit hash
-          if [ -n "$GITHUB_BASE_REF" ]; then
-            BASE_COMMIT=$(git rev-parse origin/$GITHUB_BASE_REF)
-            echo "base_commit=$BASE_COMMIT" >> $GITHUB_OUTPUT
-          else
-            # For direct pushes, compare with previous commit
-            BASE_COMMIT=$(git rev-parse HEAD^)
-            echo "base_commit=$BASE_COMMIT" >> $GITHUB_OUTPUT
-          fi
+          echo "PR_BRANCH=${{ github.head_ref }}" >> $GITHUB_OUTPUT
+          echo "BASE_BRANCH=${{ github.base_ref }}" >> $GITHUB_OUTPUT
 
       - name: Check for modified .c files
         id: check-c-changes
         run: |
-          head_commit=$(git rev-parse HEAD)
-          echo $head_commit
-          git diff --name-only ${{ steps.get-base.outputs.base_commit }} $head_commit > ./git_diff.txt
-          cat ./git_diff.txt
+          echo ${{ steps.pr-info.outputs.BASE_BRANCH }}
+          echo ${{ steps.pr-info.outputs.PR_BRANCH }}
+          git diff --name-only ${{ steps.pr-info.outputs.BASE_BRANCH }} ${{ steps.pr-info.outputs.PR_BRANCH }} > ./git_diff.txt
+          echo $(cat ./git_diff.txt)
           # Compare current commit with base commit
           MODIFIED_C_FILES=$(cat ./git_diff.txt | grep '\.c$' || true)
           echo $MODIFIED_C_FILES
