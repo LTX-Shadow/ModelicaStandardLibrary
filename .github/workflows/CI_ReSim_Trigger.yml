@@ -38,11 +38,8 @@ jobs:
       - name: Check for modified .c files
         id: check-c-changes
         run: |
-          git diff --name-only ${{ steps.pr-info.outputs.base_sha }} -- ${{ steps.pr-info.outputs.pr_sha }} > ./git_diff.txt
-          echo $(cat ./git_diff.txt)
           # Compare current commit with base commit
-          MODIFIED_C_FILES=$(cat ./git_diff.txt | grep '\.c$' || true)
-          echo $MODIFIED_C_FILES
+          MODIFIED_C_FILES=$( git diff --name-only ${{ steps.pr-info.outputs.base_sha }}  ${{ steps.pr-info.outputs.pr_sha }} | grep '\.c$' || true)
           if [ -z "$MODIFIED_C_FILES" ]; then
             echo "No .c files were modified"
             echo "has_changes=false" >> $GITHUB_OUTPUT
