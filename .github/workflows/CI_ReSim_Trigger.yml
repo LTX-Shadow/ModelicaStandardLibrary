@@ -1,6 +1,6 @@
 name: Sync_CI_Repo
 
-on: pull_request
+on: pull_request_target
 
 permissions:
   contents: read
@@ -30,15 +30,15 @@ jobs:
       - name: Get base and PR branch info
         id: pr-info
         run: |
-          echo "PR_BRANCH=${{ github.head_ref }}" >> $GITHUB_OUTPUT
-          echo "BASE_BRANCH=${{ github.base_ref }}" >> $GITHUB_OUTPUT
-
+          BASE_SHA="${{ github.event.pull_request.base.sha }}"
+          echo "base_sha=$BASE_SHA" >> $GITHUB_OUTPUT
+          PR_SHA="${{ github.event.pull_request.head.sha }}"
+          echo "pr_sha=$PR_SHA" >> $GITHUB_OUTPUT
+          
       - name: Check for modified .c files
         id: check-c-changes
         run: |
-          echo ${{ steps.pr-info.outputs.BASE_BRANCH }}
-          echo ${{ steps.pr-info.outputs.PR_BRANCH }}
-          git diff --name-only ${{ steps.pr-info.outputs.BASE_BRANCH }} -- ${{ steps.pr-info.outputs.PR_BRANCH }} > ./git_diff.txt
+          git diff --name-only ${{ steps.pr-info.outputs.base_sha }} -- ${{ steps.pr-info.outputs.pr_sha }} > ./git_diff.txt
           echo $(cat ./git_diff.txt)
           # Compare current commit with base commit
           MODIFIED_C_FILES=$(cat ./git_diff.txt | grep '\.c$' || true)
