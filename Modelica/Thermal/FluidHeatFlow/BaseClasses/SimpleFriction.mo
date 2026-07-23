@@ -24,16 +24,16 @@ protected
 initial algorithm
   assert(V_flowNominal>V_flowLaminar,
     "SimpleFriction: V_flowNominal has to be > V_flowLaminar!");
-  assert(dpNominal>=dpNomMin,
-    "SimpleFriction: dpNominal has to be > dpLaminar/V_flowLaminar*V_flowNominal!");
+  assert(dpNominal>=dpNomMin*(1 - 100*Modelica.Constants.eps),
+    "SimpleFriction: dpNominal has to be >= dpLaminar/V_flowLaminar*V_flowNominal!");
   k:=(dpNominal - dpNomMin)/(V_flowNominal - V_flowLaminar)^2;
 equation
   if volumeFlow > +V_flowLaminar then
-    pressureDrop = +dpLaminar/V_flowLaminar*volumeFlow + k*(volumeFlow - V_flowLaminar)^2;
+    pressureDrop = +dpLaminar/V_flowLaminar * volumeFlow + k*(volumeFlow - V_flowLaminar)^2;
   elseif volumeFlow < -V_flowLaminar then
-    pressureDrop = +dpLaminar/V_flowLaminar*volumeFlow - k*(volumeFlow + V_flowLaminar)^2;
+    pressureDrop = +dpLaminar/V_flowLaminar * volumeFlow - k*(volumeFlow + V_flowLaminar)^2;
   else
-    pressureDrop =  dpLaminar/V_flowLaminar*volumeFlow;
+    pressureDrop =  dpLaminar/V_flowLaminar * volumeFlow;
   end if;
   Q_friction = frictionLoss*volumeFlow*pressureDrop;
 annotation (Documentation(info="<html>
