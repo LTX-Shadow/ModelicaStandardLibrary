@@ -319,7 +319,7 @@ MATLAB is a registered trademark of The MathWorks, Inc.
     parameter Modelica.Blocks.Types.ExternalCombiTable1D tableID=
         Modelica.Blocks.Types.ExternalCombiTable1D(
           if tableOnFile then if isCsvExt then "Values" else tableName else "NoName",
-          if tableOnFile and fileName <> "NoName" and not Modelica.Utilities.Strings.isEmpty(fileName) then fileName else "NoName",
+          if tableOnFile and fileName  <>  "NoName" and not Modelica.Utilities.Strings.isEmpty(fileName) then fileName else "NoName",
           table,
           columns,
           smoothness,
@@ -342,7 +342,7 @@ MATLAB is a registered trademark of The MathWorks, Inc.
       extrapolation == Modelica.Blocks.Types.Extrapolation.HoldLastPoint) then
       for i in 1:n loop
         assert(noEvent(u[i] >= u_min), "
-Extrapolation warning: The value u[" + String(i) +"] (=" + String(u[i]) + ") must be greater or equal
+Extrapolation warning:   The value u[" + String(i) +"] (=" + String(u[i]) + ") must be greater or equal
 than the minimum abscissa value u_min (=" + String(u_min) + ") defined in the table.
 ", level=AssertionLevel.warning);
         assert(noEvent(u[i] <= u_max), "
