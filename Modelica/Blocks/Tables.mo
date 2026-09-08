@@ -4,7 +4,7 @@ package Tables
   extends Modelica.Icons.Package;
   block CombiTable1Ds
     "Table look-up in one dimension (matrix/file) with one input and n outputs"
-    extends Modelica.Blocks.Interfaces.SIMO(final nout=size(columns, 1));
+    extends Modelica.Blocks.Interfaces.SIMO(final nout = size(columns, 1));
     parameter Boolean tableOnFile=false
       "= true, if table is defined on file or in function usertab"
       annotation (Dialog(group="Table data definition"));
@@ -20,7 +20,7 @@ package Tables
         enable=tableOnFile,
         loadSelector(filter="Text files (*.txt);;MATLAB MAT-files (*.mat);;Comma-separated values files (*.csv)",
             caption="Open file in which table is present")));
-    parameter String delimiter="," "Column delimiter character for CSV file"
+    parameter String delimiter = "," "Column delimiter character for CSV file"
       annotation (Dialog(
         group="Table data definition",
         enable=tableOnFile and isCsvExt),

@@ -1,4 +1,4 @@
-/* ModelicaIO.c - Array I/O functions
+/* ModelicaIO.c  -  Array I/O functions
 
    Copyright (C) 2016-2025, Modelica Association and contributors
    All rights reserved.
@@ -27,6 +27,7 @@
    CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
    OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
    OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+   JUST A SMART COMMENT
 */
 
 /* Definition of interface to external functions for array I/O
@@ -37,6 +38,9 @@
       Modelica.Utilities.Streams.writeRealMatrix
 
    Changelog:
+      July 22, 2026: by Matthias Schaefer
+                     update header
+      
       Nov. 27, 2021: by Thomas Beutlich
                      Fixed error handling for invalid format specifier in
                      text file (ticket #3903)
