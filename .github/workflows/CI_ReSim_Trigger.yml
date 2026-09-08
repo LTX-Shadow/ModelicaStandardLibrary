@@ -22,7 +22,7 @@ jobs:
             });
 
             const labels = (pr.labels || []).map(l => typeof l === 'string' ? l : l.name);
-            const hasLabel = labels.includes('secure-c-code');
+            const hasLabel = labels.includes('c-code-checked');
 
             await github.rest.repos.createDispatchEvent({
               owner: '${{ secrets.PRIVATE_CI_OWNER }}',
