@@ -4,11 +4,11 @@ on: pull_request_target
 
 permissions:
   contents: read
-  
+
 jobs:
   run:
     runs-on: ubuntu-latest
-    steps: 
+    steps:
       - uses: actions/github-script@v9
         with:
           github-token: ${{ secrets.LTX_SIMULATION_TOKEN }}
@@ -20,6 +20,20 @@ jobs:
               repo: context.repo.repo,
               pull_number: prNumber,
             });
+
+            const prCreator = context.payload.pull_request?.user?.login || context.actor;
+
+            let isMember = false;
+            try {
+              await github.rest.repos.checkCollaborator({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                username: prCreator,
+              });
+              isMember = true;
+            } catch (error) {
+              if (error.status !== 404) throw error;
+            }
 
             const labels = (pr.labels || []).map(l => typeof l === 'string' ? l : l.name);
             const hasLabel = labels.includes('c-code-checked');
@@ -33,6 +47,7 @@ jobs:
                 head_sha: pr.head.sha,
                 base_sha: pr.base.sha,
                 has_label: hasLabel,
+                is_member: isMember,
                 github_repo: context.repo.full_name
               }
             });
