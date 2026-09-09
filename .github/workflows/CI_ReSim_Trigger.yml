@@ -21,7 +21,7 @@ jobs:
               pull_number: prNumber,
             });
 
-            const org = 'LTX-Shadow'
+            const org = 'Modelica'
             const author = context.payload.pull_request.user.login
 
             const members = await github.paginate(
