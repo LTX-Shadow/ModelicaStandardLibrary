@@ -17,6 +17,7 @@ jobs:
           github-token: ${{ secrets.LTX_SIMULATION_TOKEN }}
           script: |
             const prNumber = context.payload.pull_request?.number ?? context.payload.number;
+            const baseBranch = context.payload.pull_request.html_url;
 
             const { data: pr } = await github.rest.pulls.get({
               owner: context.repo.owner,
@@ -36,6 +37,7 @@ jobs:
                 head_sha: pr.head.sha,
                 base_sha: pr.base.sha,
                 has_label: hasLabel,
+                base_branch: baseBranch,
                 github_repo: context.repo.full_name
               }
             });
