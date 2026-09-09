@@ -4,7 +4,7 @@ package Tables
   extends Modelica.Icons.Package;
   block CombiTable1Ds
     "Table look-up in one dimension (matrix/file) with one input and n outputs"
-    extends Modelica.Blocks.Interfaces.SIMO(final nout=size(columns, 1));
+    extends Modelica.Blocks.Interfaces.SIMO(final nout = size(columns, 1));
     parameter Boolean tableOnFile=false
       "= true, if table is defined on file or in function usertab"
       annotation (Dialog(group="Table data definition"));
