@@ -21,17 +21,15 @@ jobs:
               pull_number: prNumber,
             });
 
-            const owner = context.repo.owner;
-            const repo = context.repo.repo;
-            const author = context.payload.pull_request.user.login;
+            const org = 'LTX-Shadow'
+            const author = context.payload.pull_request.user.login
 
-            const { data2 } = await github.rest.repos.getCollaboratorPermissionLevel({
-              owner,
-              repo,
-              username: author,
-            });
+            const members = await github.paginate(
+            github.rest.orgs.listMembers,
+              { org, per_page: 100 }
+            )
 
-            const isCollaborator = ['admin', 'write', 'maintain', 'triage'].includes(data2.permission);
+            const isMember = members.some(m => m.login === author)
 
             const labels = (pr.labels || []).map(l => typeof l === 'string' ? l : l.name);
             const hasLabel = labels.includes('approved_for_ci');
@@ -45,7 +43,7 @@ jobs:
                 head_sha: pr.head.sha,
                 base_sha: pr.base.sha,
                 has_label: hasLabel,
-                is_member: isCollaborator,
+                is_member: isMember,
                 github_repo: context.repo.full_name
               }
             });
