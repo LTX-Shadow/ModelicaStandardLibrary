@@ -24,7 +24,7 @@ package Tables
       annotation (Dialog(
         group="Table data definition",
         enable=tableOnFile and isCsvExt),
-        choices(choice=" " "Blank", choice="," "Comma", choice="\t" "Horizontal tabulator", choice=";" "Semicolon"));
+        choices(choice=" " "Blank", choice="," "Comma", choice= "\t" "Horizontal tabulator", choice=";" "Semicolon"));
     parameter Integer nHeaderLines=0 "Number of header lines to ignore for CSV file"
       annotation (Dialog(group="Table data definition",enable=tableOnFile and isCsvExt));
     parameter Boolean verboseRead=true
