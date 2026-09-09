@@ -18,7 +18,7 @@ package Tables
       annotation (Dialog(
         group="Table data definition",
         enable=tableOnFile,
-        loadSelector(filter="Text files (*.txt);;MATLAB MAT-files (*.mat);;Comma-separated values files (*.csv)",
+        loadSelector(filter="Text files (*.txt);;MATLAB MAT-files (*.mat);;Comma-separated-values files (*.csv)",
             caption="Open file in which table is present")));
     parameter String delimiter="," "Column delimiter character for CSV file"
       annotation (Dialog(
