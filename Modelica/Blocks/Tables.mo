@@ -10,7 +10,7 @@ package Tables
       annotation (Dialog(group="Table data definition"));
     parameter Real table[:, :] = fill(0.0, 0, 2)
       "Table matrix (grid = first column; e.g., table=[0, 0; 1, 1; 2, 4])"
-      annotation (Dialog(group="Table data definition",enable=not tableOnFile));
+      annotation (Dialog(group="Table data definition",enable = not tableOnFile));
     parameter String tableName="NoName"
       "Table name on file or in function usertab (see docu)"
       annotation (Dialog(group="Table data definition",enable=tableOnFile));
