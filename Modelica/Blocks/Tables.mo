@@ -39,7 +39,7 @@ package Tables
     parameter Modelica.Blocks.Types.Extrapolation extrapolation=Modelica.Blocks.Types.Extrapolation.LastTwoPoints
       "Extrapolation of data outside the definition range"
       annotation (Dialog(group="Table data interpretation"));
-    parameter Boolean verboseExtrapolation=false
+    parameter Boolean verboseExtrapolation = false
       "= true, if warning messages are to be printed if table input is outside the definition range"
       annotation (Dialog(group="Table data interpretation", enable=extrapolation == Modelica.Blocks.Types.Extrapolation.LastTwoPoints or extrapolation == Modelica.Blocks.Types.Extrapolation.HoldLastPoint));
     final parameter Real u_min=Internal.getTable1DAbscissaUmin(tableID)
