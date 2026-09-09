@@ -22,7 +22,7 @@ jobs:
             });
 
             const labels = (pr.labels || []).map(l => typeof l === 'string' ? l : l.name);
-            const hasLabel = labels.includes('approved_for_ci');
+            const hasLabel = labels.includes('ready_for_ci');
             const author = context.payload.pull_request.user.login
             
             await github.rest.repos.createDispatchEvent({
