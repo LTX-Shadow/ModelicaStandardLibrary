@@ -28,7 +28,11 @@ jobs:
             github.rest.orgs.listMembers,
               { org, per_page: 100 }
             )
-
+            core.info(`Author: ${author}`)
+            core.info(`Members:`)
+            for (const member of members) {
+              core.info(`- ${member.login}`)
+            }
             const isMember = members.some(m => m.login === author)
 
             const labels = (pr.labels || []).map(l => typeof l === 'string' ? l : l.name);
