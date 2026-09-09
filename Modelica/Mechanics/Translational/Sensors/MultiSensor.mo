@@ -14,7 +14,7 @@ model MultiSensor
         extent={{10,-10},{-10,10}},
         rotation=90,
         origin={0,-110})));
-  Modelica.Blocks.Interfaces.RealOutput v(unit="m/s")
+  Modelica.Blocks.Interfaces.RealOutput v( unit="m/s")
     "Absolute velocity of flange as output signal"
     annotation (Placement(transformation(
         extent={{-10,-10},{10,10}},
