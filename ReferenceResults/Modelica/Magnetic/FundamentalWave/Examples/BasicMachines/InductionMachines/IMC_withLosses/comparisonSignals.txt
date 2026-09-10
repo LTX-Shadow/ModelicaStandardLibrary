@@ -1,3 +1,0 @@
-time
-aimc.stator.core.Phi.im
-aimc.stator.core.Phi.re

@@ -1,3 +1,0 @@
-time
-aimcM.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re
-aimcM.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im

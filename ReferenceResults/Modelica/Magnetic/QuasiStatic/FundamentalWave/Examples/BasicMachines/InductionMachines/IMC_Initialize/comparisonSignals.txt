@@ -1,3 +1,0 @@
-time
-loadInertia.w
-loadInertiaQS.w

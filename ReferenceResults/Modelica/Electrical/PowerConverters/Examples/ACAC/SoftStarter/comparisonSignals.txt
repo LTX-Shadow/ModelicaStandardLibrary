@@ -1,3 +1,0 @@
-time
-harmonic.y_rms
-loadInertia.w
