@@ -19,11 +19,14 @@ jobs:
             const prNumber = context.payload.pull_request?.number ?? context.payload.number;
             const baseRepo = context.payload.pull_request.html_url;
             const baseBranch = context.payload.pull_request.head.ref;
+            const forkOwner = context.payload.pull_request.head.repo.full_name;
+            const targetBranch = context.payload.pull_request.base.ref;
 
             const { data: pr } = await github.rest.pulls.get({
               owner: context.repo.owner,
               repo: context.repo.repo,
               pull_number: prNumber,
+              
             });
 
             const labels = (pr.labels || []).map(l => typeof l === 'string' ? l : l.name);
@@ -40,6 +43,8 @@ jobs:
                 has_label: hasLabel,
                 base_repo: baseRepo,
                 base_branch: baseBranch,
+                target_branch: targetBranch,
+                fork_owner: forkOwner,
                 github_repo: context.repo.full_name
               }
             });
