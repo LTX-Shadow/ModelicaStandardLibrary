@@ -11,8 +11,8 @@ model Resistor "Ideal linear electrical resistor"
 equation
   assert( (1 + alpha * (T_heatPort - T_ref) ) >= Modelica.Constants.eps,  "Temperature outside scope of model!" );
   R_actual = R * (1 + alpha * (T_heatPort - T_ref) );
-  v = R_actual*i;
-  LossPower = v*i;
+  v = R_actual * i;
+  LossPower = v * i;
   annotation (
     Documentation(info="<html>
 <p>The linear resistor connects the branch voltage <em>v</em> with the branch current <em>i</em> by <em>i*R = v</em>. The Resistance <em>R</em> is allowed to be positive, zero, or negative.</p>
