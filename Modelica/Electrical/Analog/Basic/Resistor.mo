@@ -9,12 +9,12 @@ model Resistor "Ideal linear electrical resistor"
   extends Modelica.Electrical.Analog.Interfaces.OnePort;
   extends Modelica.Electrical.Analog.Interfaces.ConditionalHeatPort(T=T_ref);
   SI.Resistance R_actual
-    "Actual resistance = R*(1 + alpha*(T_heatPort - T_ref))";
+    "Actual resistance = R * (1 + alpha * (T_heatPort - T_ref) )";
 
 equation
   assert((1 + alpha*(T_heatPort - T_ref)) >= Modelica.Constants.eps,
     "Temperature outside scope of model!");
-  R_actual = R*(1 + alpha*(T_heatPort - T_ref));
+  R_actual = R * (1 + alpha * (T_heatPort - T_ref) );
   v = R_actual*i;
   LossPower = v*i;
   annotation (
