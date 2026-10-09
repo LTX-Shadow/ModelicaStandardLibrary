@@ -1,19 +1,15 @@
 within Modelica.Electrical.Analog.Basic;
 model Resistor "Ideal linear electrical resistor"
-  parameter SI.Resistance R( start = 1 )
-    "Resistance at temperature T_ref";
+  parameter SI.Resistance R( start = 1 ) "Resistance at temperature T_ref";
   parameter SI.Temperature T_ref = 300.15 "Reference temperature";
-  parameter SI.LinearTemperatureCoefficient alpha=0
-    "Temperature coefficient of resistance (R_actual = R * (1 + alpha * (T_heatPort - T_ref)) )";
+  parameter SI.LinearTemperatureCoefficient alpha=0  "Temperature coefficient of resistance (R_actual = R * (1 + alpha * (T_heatPort - T_ref)) )";
 
   extends Modelica.Electrical.Analog.Interfaces.OnePort;
   extends Modelica.Electrical.Analog.Interfaces.ConditionalHeatPort(T=T_ref);
-  SI.Resistance R_actual
-    "Actual resistance = R * (1 + alpha * (T_heatPort - T_ref) )";
+  SI.Resistance R_actual  "Actual resistance = R * (1 + alpha * (T_heatPort - T_ref) )";
 
 equation
-  assert( (1 + alpha * (T_heatPort - T_ref) ) >= Modelica.Constants.eps,
-    "Temperature outside scope of model!");
+  assert( (1 + alpha * (T_heatPort - T_ref) ) >= Modelica.Constants.eps,  "Temperature outside scope of model!" );
   R_actual = R * (1 + alpha * (T_heatPort - T_ref) );
   v = R_actual*i;
   LossPower = v*i;
