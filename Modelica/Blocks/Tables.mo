@@ -4,13 +4,13 @@ package Tables
   extends Modelica.Icons.Package;
   block CombiTable1Ds
     "Table look-up in one dimension (matrix/file) with one input and n outputs"
-    extends Modelica.Blocks.Interfaces.SIMO(final nout=size(columns, 1));
+    extends Modelica.Blocks.Interfaces.SIMO(final nout = size(columns, 1));
     parameter Boolean tableOnFile=false
       "= true, if table is defined on file or in function usertab"
       annotation (Dialog(group="Table data definition"));
     parameter Real table[:, :] = fill(0.0, 0, 2)
       "Table matrix (grid = first column; e.g., table=[0, 0; 1, 1; 2, 4])"
-      annotation (Dialog(group="Table data definition",enable=not tableOnFile));
+      annotation (Dialog(group="Table data definition",enable = not tableOnFile));
     parameter String tableName="NoName"
       "Table name on file or in function usertab (see docu)"
       annotation (Dialog(group="Table data definition",enable=tableOnFile));
@@ -18,13 +18,13 @@ package Tables
       annotation (Dialog(
         group="Table data definition",
         enable=tableOnFile,
-        loadSelector(filter="Text files (*.txt);;MATLAB MAT-files (*.mat);;Comma-separated values files (*.csv)",
+        loadSelector(filter="Text files (*.txt);;MATLAB MAT-files (*.mat);;Comma-separated-values files (*.csv)",
             caption="Open file in which table is present")));
     parameter String delimiter="," "Column delimiter character for CSV file"
       annotation (Dialog(
         group="Table data definition",
         enable=tableOnFile and isCsvExt),
-        choices(choice=" " "Blank", choice="," "Comma", choice="\t" "Horizontal tabulator", choice=";" "Semicolon"));
+        choices(choice=" " "Blank", choice="," "Comma", choice= "\t" "Horizontal tabulator", choice=";" "Semicolon"));
     parameter Integer nHeaderLines=0 "Number of header lines to ignore for CSV file"
       annotation (Dialog(group="Table data definition",enable=tableOnFile and isCsvExt));
     parameter Boolean verboseRead=true
@@ -39,7 +39,7 @@ package Tables
     parameter Modelica.Blocks.Types.Extrapolation extrapolation=Modelica.Blocks.Types.Extrapolation.LastTwoPoints
       "Extrapolation of data outside the definition range"
       annotation (Dialog(group="Table data interpretation"));
-    parameter Boolean verboseExtrapolation=false
+    parameter Boolean verboseExtrapolation = false
       "= true, if warning messages are to be printed if table input is outside the definition range"
       annotation (Dialog(group="Table data interpretation", enable=extrapolation == Modelica.Blocks.Types.Extrapolation.LastTwoPoints or extrapolation == Modelica.Blocks.Types.Extrapolation.HoldLastPoint));
     final parameter Real u_min=Internal.getTable1DAbscissaUmin(tableID)
@@ -319,7 +319,7 @@ MATLAB is a registered trademark of The MathWorks, Inc.
     parameter Modelica.Blocks.Types.ExternalCombiTable1D tableID=
         Modelica.Blocks.Types.ExternalCombiTable1D(
           if tableOnFile then if isCsvExt then "Values" else tableName else "NoName",
-          if tableOnFile and fileName <> "NoName" and not Modelica.Utilities.Strings.isEmpty(fileName) then fileName else "NoName",
+          if tableOnFile and fileName  <>  "NoName" and not Modelica.Utilities.Strings.isEmpty(fileName) then fileName else "NoName",
           table,
           columns,
           smoothness,
@@ -342,7 +342,7 @@ MATLAB is a registered trademark of The MathWorks, Inc.
       extrapolation == Modelica.Blocks.Types.Extrapolation.HoldLastPoint) then
       for i in 1:n loop
         assert(noEvent(u[i] >= u_min), "
-Extrapolation warning: The value u[" + String(i) +"] (=" + String(u[i]) + ") must be greater or equal
+Extrapolation warning:   The value u[" + String(i) +"] (=" + String(u[i]) + ") must be greater or equal
 than the minimum abscissa value u_min (=" + String(u_min) + ") defined in the table.
 ", level=AssertionLevel.warning);
         assert(noEvent(u[i] <= u_max), "
