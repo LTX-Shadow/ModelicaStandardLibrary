@@ -1,0 +1,32 @@
+Log-file of program ./dymosim
+(generated: Thu Oct 15 14:40:45 2026)
+
+dymosim started
+... "Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMPM_Braking" simulating
+... "dsin.txt" loading (dymosim input file)
+... "result.mat" creating (simulation result file)
+
+Integration started at T = 0 using integration method DASSL
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
+Integration terminated successfully at T = 0.8
+   CPU-time for integration                : 0.0915 seconds
+   CPU-time for one grid interval          : 0.0114 milliseconds
+   CPU-time for initialization             : 0.000129 seconds
+   Number of result points                 : 8304
+   Number of grid points                   : 8001
+   Number of accepted steps                : 3481
+   Number of f-evaluations (dynamics)      : 6557
+   Number of crossing function evaluations : 12804
+   Number of Jacobian-evaluations          : 1312
+   Number of model time events             : 0
+   Number of input time events             : 0
+   Number of state events                  : 151
+   Number of step events                   : 0
+   Minimum integration stepsize            : 1.47e-09
+   Maximum integration stepsize            : 0.018
+   Maximum integration order               : 5
+Calling terminal section
+... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMPM_Braking

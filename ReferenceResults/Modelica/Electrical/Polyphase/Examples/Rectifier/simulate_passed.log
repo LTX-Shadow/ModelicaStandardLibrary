@@ -1,21 +1,23 @@
 Log-file of program ./dymosim
-(generated: Tue May  5 01:09:30 2020)
+(generated: Thu Oct 15 14:39:07 2026)
 
 dymosim started
+... "Modelica.Electrical.Polyphase.Examples.Rectifier" simulating
 ... "dsin.txt" loading (dymosim input file)
-... "Rectifier.mat" creating (simulation result file)
+... "result.mat" creating (simulation result file)
 
 Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
 Integration terminated successfully at T = 0.1
-   CPU-time for integration                : 0.428 seconds
-   CPU-time for one grid interval          : 0.0214 milliseconds
-   CPU-time for initialization             : 0 seconds
-   Number of result points                 : 20122
-   Number of grid points                   : 20001
+   CPU-time for integration                : 0.0613 seconds
+   CPU-time for one grid interval          : 0.00613 milliseconds
+   CPU-time for initialization             : 0.000108 seconds
+   Number of result points                 : 10122
+   Number of grid points                   : 10001
    Number of accepted steps                : 3534
    Number of f-evaluations (dynamics)      : 6709
-   Number of crossing function evaluations : 23984
+   Number of crossing function evaluations : 13977
    Number of Jacobian-evaluations          : 1119
    Number of model time events             : 0
    Number of input time events             : 0
@@ -26,3 +28,5 @@ Integration terminated successfully at T = 0.1
    Maximum integration order               : 5
 Calling terminal section
 ... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of Modelica.Electrical.Polyphase.Examples.Rectifier

@@ -1,0 +1,48 @@
+Translation of <a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMEE_Rectifier">Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMEE_Rectifier</a>
+The DAE has 958 scalar unknowns and 958 scalar equations.
+
+Statistics
+
+Original Model
+  Number of components: 220
+  Variables: 1378
+  Constants: 17 (17 scalars)
+  Parameters: 444 (474 scalars)
+  Unknowns: 917 (958 scalars)
+  Differentiated variables: 25 scalars
+  Equations: 601
+  Nontrivial: 507
+Translated Model
+  Constants: 385 scalars
+  Free parameters: 91 scalars
+  Parameter depending: 182 scalars
+  Continuous time states: 12 scalars
+  Time-varying variables: 228 scalars
+  Alias variables: 563 scalars
+  Number of mixed real/discrete systems of equations: 3
+  Sizes of linear systems of equations: {17, 8, 6, 6, 6, 4}
+  Sizes after manipulation of the linear systems: {2, 0, 2, 2, 2, 2}
+  Sizes of nonlinear systems of equations: { }
+  Sizes after manipulation of the nonlinear systems: { }
+  Number of numerical Jacobians: 0
+  Initialization problem
+    Sizes of linear systems of equations: {2}
+    Sizes after manipulation of the linear systems: {2}
+
+Settings
+Advanced.StoreProtectedVariables = true
+Selected continuous time states
+Statically selected continuous time states
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMEE_Rectifier#text$capacitor1:v">capacitor1.v</a>
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMEE_Rectifier#text$capacitor2:v">capacitor2.v</a>
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMEE_Rectifier#diagram$:filter.x[1]">filter.x[1]</a>
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMEE_Rectifier#diagram$:filter.x[2]">filter.x[2]</a>
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMEE_Rectifier#text$smee.excitation.electroMagneticConverter.Phi:re">smee.excitation.electroMagneticConverter.Phi.re</a>
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMEE_Rectifier#text$smee.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter.Phi:re">smee.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re</a>
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMEE_Rectifier#text$smee.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter.Phi:im">smee.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im</a>
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMEE_Rectifier#text$smee.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter.Phi:re">smee.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re</a>
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMEE_Rectifier#text$smee.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter.Phi:im">smee.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im</a>
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMEE_Rectifier#text$speed:phi">speed.phi</a>
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMEE_Rectifier#text$speed:w">speed.w</a>
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMEE_Rectifier#diagram$voltageController:I.y">voltageController.I.y</a>
+Finished

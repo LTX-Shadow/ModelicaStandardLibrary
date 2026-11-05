@@ -1,22 +1,21 @@
-﻿ = true
-Translation of Modelica.Electrical.Batteries.Examples.CCCVcharging:
+Translation of <a href="Modelica://Modelica.Electrical.Batteries.Examples.CCCVcharging">Modelica.Electrical.Batteries.Examples.CCCVcharging</a>
 The DAE has 123 scalar unknowns and 123 scalar equations.
- 
+
 Statistics
- 
+
 Original Model
   Number of components: 28
-  Variables: 235
+  Variables: 239
   Constants: 6 (6 scalars)
-  Parameters: 106 (391 scalars)
+  Parameters: 110 (395 scalars)
   Unknowns: 123 (123 scalars)
   Differentiated variables: 4 scalars
   Equations: 121
   Nontrivial: 98
 Translated Model
-  Constants: 48 scalars
-  Free parameters: 84 scalars
-  Parameter depending: 285 scalars
+  Constants: 46 scalars
+  Free parameters: 86 scalars
+  Parameter depending: 289 scalars
   Continuous time states: 4 scalars
   Time-varying variables: 30 scalars
   Alias variables: 73 scalars
@@ -26,13 +25,13 @@ Translated Model
   Sizes of nonlinear systems of equations: { }
   Sizes after manipulation of the nonlinear systems: { }
   Number of numerical Jacobians: 0
- 
+
 Settings
 Advanced.StoreProtectedVariables = true
 Selected continuous time states
 Statically selected continuous time states
-  battery.capacitor[1].v
-  battery.capacitor[2].v
-  battery.limIntegrator.y
-  energy.y
- 
+<a href="Modelica://Modelica.Electrical.Batteries.Examples.CCCVcharging#text$battery.capacitor:v">battery.capacitor[1].v</a>
+<a href="Modelica://Modelica.Electrical.Batteries.Examples.CCCVcharging#text$battery.capacitor:v">battery.capacitor[2].v</a>
+<a href="Modelica://Modelica.Electrical.Batteries.Examples.CCCVcharging#diagram$battery:limIntegrator.y">battery.limIntegrator.y</a>
+<a href="Modelica://Modelica.Electrical.Batteries.Examples.CCCVcharging#diagram$:energy.y">energy.y</a>
+Finished

@@ -1,15 +1,15 @@
 Translation of <a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.Components.PolyphaseInductance">Modelica.Magnetic.FundamentalWave.Examples.Components.PolyphaseInductance</a>
-The DAE has 588 scalar unknowns and 588 scalar equations.
+The DAE has 591 scalar unknowns and 591 scalar equations.
 
 Statistics
 
 Original Model
   Number of components: 145
-  Variables: 815
+  Variables: 816
   Parameters: 259 (319 scalars)
-  Unknowns: 556 (588 scalars)
+  Unknowns: 557 (591 scalars)
   Differentiated variables: 14 scalars
-  Equations: 320
+  Equations: 321
   Nontrivial: 270
 Translated Model
   Constants: 220 scalars
@@ -17,7 +17,7 @@ Translated Model
   Parameter depending: 170 scalars
   Continuous time states: 8 scalars
   Time-varying variables: 121 scalars
-  Alias variables: 355 scalars
+  Alias variables: 358 scalars
   Number of mixed real/discrete systems of equations: 0
   Sizes of linear systems of equations: {5, 5, 5, 5, 16}
   Sizes after manipulation of the linear systems: {3, 2, 3, 2, 3}

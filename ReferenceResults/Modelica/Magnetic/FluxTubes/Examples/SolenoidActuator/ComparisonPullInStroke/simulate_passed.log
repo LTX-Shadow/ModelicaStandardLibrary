@@ -1,28 +1,34 @@
 Log-file of program ./dymosim
-(generated: Tue May  5 01:34:30 2020)
+(generated: Thu Oct 15 14:40:07 2026)
 
 dymosim started
+... "Modelica.Magnetic.FluxTubes.Examples.SolenoidActuator.ComparisonPullInStroke" simulating
 ... "dsin.txt" loading (dymosim input file)
-... "ComparisonPullInStroke.mat" creating (simulation result file)
+... "result.mat" creating (simulation result file)
 
 Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
 Integration terminated successfully at T = 0.05
-   CPU-time for integration                : 2.27 seconds
-   CPU-time for one grid interval          : 0.454 milliseconds
-   CPU-time for initialization             : 0.001 seconds
+  WARNING: You have many time events. This is probably due to fast sampling.
+  Enable logging of event in Simulation/Setup/Debug/Events during simulation
+   CPU-time for integration                : 0.152 seconds
+   CPU-time for one grid interval          : 0.0304 milliseconds
+   CPU-time for initialization             : 0.00027 seconds
    Number of result points                 : 5545
    Number of grid points                   : 5001
-   Number of accepted steps                : 11496
-   Number of f-evaluations (dynamics)      : 16038
-   Number of crossing function evaluations : 16569
-   Number of Jacobian-evaluations          : 8464
+   Number of accepted steps                : 1296
+   Number of f-evaluations (dynamics)      : 2643
+   Number of crossing function evaluations : 6885
+   Number of Jacobian-evaluations          : 304
    Number of model time events             : 514
    Number of input time events             : 0
    Number of state events                  : 8
    Number of step events                   : 0
-   Minimum integration stepsize            : 1.74e-13
-   Maximum integration stepsize            : 6.58e-05
+   Minimum integration stepsize            : 1.77e-12
+   Maximum integration stepsize            : 0.000692
    Maximum integration order               : 5
 Calling terminal section
 ... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of Modelica.Magnetic.FluxTubes.Examples.SolenoidActuator.ComparisonPullInStroke

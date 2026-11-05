@@ -1,22 +1,21 @@
-﻿ = true
-Translation of Modelica.Electrical.Batteries.Examples.BatteryDischargeCharge:
+Translation of <a href="Modelica://Modelica.Electrical.Batteries.Examples.BatteryDischargeCharge">Modelica.Electrical.Batteries.Examples.BatteryDischargeCharge</a>
 The DAE has 215 scalar unknowns and 215 scalar equations.
- 
+
 Statistics
- 
+
 Original Model
   Number of components: 49
-  Variables: 411
+  Variables: 418
   Constants: 8 (8 scalars)
-  Parameters: 188 (500 scalars)
+  Parameters: 195 (507 scalars)
   Unknowns: 215 (215 scalars)
   Differentiated variables: 6 scalars
   Equations: 213
   Nontrivial: 173
 Translated Model
-  Constants: 99 scalars
-  Free parameters: 105 scalars
-  Parameter depending: 347 scalars
+  Constants: 95 scalars
+  Free parameters: 108 scalars
+  Parameter depending: 355 scalars
   Continuous time states: 6 scalars
   Time-varying variables: 43 scalars
   Alias variables: 129 scalars
@@ -26,15 +25,15 @@ Translated Model
   Sizes of nonlinear systems of equations: { }
   Sizes after manipulation of the nonlinear systems: { }
   Number of numerical Jacobians: 0
- 
+
 Settings
 Advanced.StoreProtectedVariables = true
 Selected continuous time states
 Statically selected continuous time states
-  battery1.limIntegrator.y
-  battery2.capacitor[1].v
-  battery2.capacitor[2].v
-  battery2.limIntegrator.y
-  energy1.y
-  energy2.y
- 
+<a href="Modelica://Modelica.Electrical.Batteries.Examples.BatteryDischargeCharge#diagram$battery1:limIntegrator.y">battery1.limIntegrator.y</a>
+<a href="Modelica://Modelica.Electrical.Batteries.Examples.BatteryDischargeCharge#text$battery2.capacitor:v">battery2.capacitor[1].v</a>
+<a href="Modelica://Modelica.Electrical.Batteries.Examples.BatteryDischargeCharge#text$battery2.capacitor:v">battery2.capacitor[2].v</a>
+<a href="Modelica://Modelica.Electrical.Batteries.Examples.BatteryDischargeCharge#diagram$battery2:limIntegrator.y">battery2.limIntegrator.y</a>
+<a href="Modelica://Modelica.Electrical.Batteries.Examples.BatteryDischargeCharge#diagram$:energy1.y">energy1.y</a>
+<a href="Modelica://Modelica.Electrical.Batteries.Examples.BatteryDischargeCharge#diagram$:energy2.y">energy2.y</a>
+Finished

@@ -1,28 +1,32 @@
 Log-file of program ./dymosim
-(generated: Tue May  5 01:35:04 2020)
+(generated: Thu Oct 15 14:40:12 2026)
 
 dymosim started
+... "Modelica.Magnetic.FluxTubes.Examples.Hysteresis.SinglePhaseTransformerWithHysteresis1" simulating
 ... "dsin.txt" loading (dymosim input file)
-... "SinglePhaseTransformerWithHysteresis1.mat" creating (simulation result file)
+... "result.mat" creating (simulation result file)
 
 Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
 Integration terminated successfully at T = 0.02
-   CPU-time for integration                : 0.22 seconds
-   CPU-time for one grid interval          : 0.022 milliseconds
-   CPU-time for initialization             : 0 seconds
-   Number of result points                 : 10036
-   Number of grid points                   : 10001
-   Number of accepted steps                : 17772
-   Number of f-evaluations (dynamics)      : 40597
-   Number of crossing function evaluations : 27878
-   Number of Jacobian-evaluations          : 5073
+   CPU-time for integration                : 0.0701 seconds
+   CPU-time for one grid interval          : 0.014 milliseconds
+   CPU-time for initialization             : 0.000126 seconds
+   Number of result points                 : 5036
+   Number of grid points                   : 5001
+   Number of accepted steps                : 12036
+   Number of f-evaluations (dynamics)      : 27606
+   Number of crossing function evaluations : 17141
+   Number of Jacobian-evaluations          : 3282
    Number of model time events             : 0
    Number of input time events             : 0
    Number of state events                  : 17
    Number of step events                   : 0
-   Minimum integration stepsize            : 8.9e-12
-   Maximum integration stepsize            : 2.79e-05
+   Minimum integration stepsize            : 8.9e-11
+   Maximum integration stepsize            : 4.8e-05
    Maximum integration order               : 5
 Calling terminal section
 ... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of Modelica.Magnetic.FluxTubes.Examples.Hysteresis.SinglePhaseTransformerWithHysteresis1

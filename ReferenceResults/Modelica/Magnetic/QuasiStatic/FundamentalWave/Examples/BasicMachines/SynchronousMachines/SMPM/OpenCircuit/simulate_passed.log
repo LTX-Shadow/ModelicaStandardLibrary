@@ -1,0 +1,31 @@
+Log-file of program ./dymosim
+(generated: Thu Oct 15 14:41:09 2026)
+
+dymosim started
+... "Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMPM_OpenCircuit" simulating
+... "dsin.txt" loading (dymosim input file)
+... "result.mat" creating (simulation result file)
+
+Integration started at T = 0 using integration method DASSL
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
+Integration terminated successfully at T = 0.1
+   CPU-time for integration                : 0.00399 seconds
+   CPU-time for one grid interval          : 0.00399 milliseconds
+   CPU-time for initialization             : 0.00015 seconds
+   Number of result points                 : 1002
+   Number of grid points                   : 1001
+   Number of accepted steps                : 25
+   Number of f-evaluations (dynamics)      : 25
+   Number of Jacobian-evaluations          : 24
+   Number of model time events             : 0
+   Number of input time events             : 0
+   Number of state events                  : 0
+   Number of step events                   : 0
+   Minimum integration stepsize            : 3.18e-09
+   Maximum integration stepsize            : 0.0466
+   Maximum integration order               : 1
+Calling terminal section
+... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMPM_OpenCircuit

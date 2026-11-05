@@ -1,28 +1,32 @@
 Log-file of program ./dymosim
-(generated: Tue May  5 00:51:59 2020)
+(generated: Thu Oct 15 14:38:07 2026)
 
 dymosim started
+... "Modelica.Electrical.Batteries.Examples.CCCVcharging" simulating
 ... "dsin.txt" loading (dymosim input file)
-... "CCCVcharging.mat" creating (simulation result file)
+... "result.mat" creating (simulation result file)
 
 Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
 Integration terminated successfully at T = 1200
-   CPU-time for integration                : 0.333 seconds
-   CPU-time for one grid interval          : 0.0139 milliseconds
-   CPU-time for initialization             : 0 seconds
-   Number of result points                 : 24004
-   Number of grid points                   : 24001
-   Number of accepted steps                : 355
-   Number of f-evaluations (dynamics)      : 740
-   Number of crossing function evaluations : 24365
-   Number of Jacobian-evaluations          : 71
+   CPU-time for integration                : 0.0421 seconds
+   CPU-time for one grid interval          : 0.00351 milliseconds
+   CPU-time for initialization             : 9.6e-05 seconds
+   Number of result points                 : 12004
+   Number of grid points                   : 12001
+   Number of accepted steps                : 251
+   Number of f-evaluations (dynamics)      : 518
+   Number of crossing function evaluations : 12258
+   Number of Jacobian-evaluations          : 54
    Number of model time events             : 0
    Number of input time events             : 0
    Number of state events                  : 1
    Number of step events                   : 0
-   Minimum integration stepsize            : 3.02e-06
-   Maximum integration stepsize            : 15.6
+   Minimum integration stepsize            : 5.31e-05
+   Maximum integration stepsize            : 33.1
    Maximum integration order               : 5
 Calling terminal section
 ... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of Modelica.Electrical.Batteries.Examples.CCCVcharging

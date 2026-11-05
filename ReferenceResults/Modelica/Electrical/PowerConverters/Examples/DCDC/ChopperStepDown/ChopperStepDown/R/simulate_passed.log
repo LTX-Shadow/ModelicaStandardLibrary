@@ -1,0 +1,32 @@
+Log-file of program ./dymosim
+(generated: Thu Oct 15 14:39:46 2026)
+
+dymosim started
+... "Modelica.Electrical.PowerConverters.Examples.DCDC.ChopperStepDown.ChopperStepDown_R" simulating
+... "dsin.txt" loading (dymosim input file)
+... "result.mat" creating (simulation result file)
+
+Integration started at T = 0 using integration method DASSL
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
+Integration terminated successfully at T = 0.1
+   CPU-time for integration                : 0.0571 seconds
+   CPU-time for one grid interval          : 0.00571 milliseconds
+   CPU-time for initialization             : 7.2e-05 seconds
+   Number of result points                 : 10230
+   Number of grid points                   : 10001
+   Number of accepted steps                : 6323
+   Number of f-evaluations (dynamics)      : 10778
+   Number of crossing function evaluations : 16970
+   Number of Jacobian-evaluations          : 2454
+   Number of model time events             : 100
+   Number of input time events             : 0
+   Number of state events                  : 74
+   Number of step events                   : 0
+   Minimum integration stepsize            : 2.14e-10
+   Maximum integration stepsize            : 0.000345
+   Maximum integration order               : 5
+Calling terminal section
+... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of Modelica.Electrical.PowerConverters.Examples.DCDC.ChopperStepDown.ChopperStepDown_R

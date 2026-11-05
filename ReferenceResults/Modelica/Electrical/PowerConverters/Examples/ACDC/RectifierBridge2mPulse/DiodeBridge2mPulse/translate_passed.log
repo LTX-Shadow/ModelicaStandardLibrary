@@ -1,22 +1,21 @@
-﻿ = true
-Translation of Modelica.Electrical.PowerConverters.Examples.ACDC.RectifierBridge2mPulse.DiodeBridge2mPulse:
+Translation of <a href="Modelica://Modelica.Electrical.PowerConverters.Examples.ACDC.RectifierBridge2mPulse.DiodeBridge2mPulse">Modelica.Electrical.PowerConverters.Examples.ACDC.RectifierBridge2mPulse.DiodeBridge2mPulse</a>
 The DAE has 251 scalar unknowns and 251 scalar equations.
- 
+
 Statistics
- 
+
 Original Model
   Number of components: 34
-  Variables: 391
+  Variables: 398
   Constants: 12 (12 scalars)
-  Parameters: 147 (173 scalars)
+  Parameters: 154 (180 scalars)
   Unknowns: 232 (251 scalars)
   Differentiated variables: 3 scalars
   Equations: 158
   Nontrivial: 135
 Translated Model
-  Constants: 114 scalars
-  Free parameters: 27 scalars
-  Parameter depending: 84 scalars
+  Constants: 117 scalars
+  Free parameters: 30 scalars
+  Parameter depending: 85 scalars
   Continuous time states: 3 scalars
   Time-varying variables: 66 scalars
   Alias variables: 145 scalars
@@ -26,12 +25,12 @@ Translated Model
   Sizes of nonlinear systems of equations: { }
   Sizes after manipulation of the nonlinear systems: { }
   Number of numerical Jacobians: 0
- 
+
 Settings
 Advanced.StoreProtectedVariables = true
 Selected continuous time states
 Statically selected continuous time states
-  meanCurrent.x
-  meanVoltage.x
-  rootMeanSquareVoltage.mean.x
- 
+<a href="Modelica://Modelica.Electrical.PowerConverters.Examples.ACDC.RectifierBridge2mPulse.DiodeBridge2mPulse#text$meanCurrent:x">meanCurrent.x</a>
+<a href="Modelica://Modelica.Electrical.PowerConverters.Examples.ACDC.RectifierBridge2mPulse.DiodeBridge2mPulse#text$meanVoltage:x">meanVoltage.x</a>
+<a href="Modelica://Modelica.Electrical.PowerConverters.Examples.ACDC.RectifierBridge2mPulse.DiodeBridge2mPulse#text$rootMeanSquareVoltage.mean:x">rootMeanSquareVoltage.mean.x</a>
+Finished

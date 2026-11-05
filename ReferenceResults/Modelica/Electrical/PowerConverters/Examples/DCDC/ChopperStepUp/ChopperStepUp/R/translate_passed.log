@@ -1,0 +1,37 @@
+Translation of <a href="Modelica://Modelica.Electrical.PowerConverters.Examples.DCDC.ChopperStepUp.ChopperStepUp_R">Modelica.Electrical.PowerConverters.Examples.DCDC.ChopperStepUp.ChopperStepUp_R</a>
+The DAE has 116 scalar unknowns and 116 scalar equations.
+
+Statistics
+
+Original Model
+  Number of components: 26
+  Variables: 198
+  Constants: 4 (4 scalars)
+  Parameters: 78 (78 scalars)
+  Unknowns: 116 (116 scalars)
+  Differentiated variables: 4 scalars
+  Equations: 121
+  Nontrivial: 103
+Translated Model
+  Constants: 39 scalars
+  Free parameters: 27 scalars
+  Parameter depending: 30 scalars
+  Continuous time states: 4 scalars
+  Time-varying variables: 38 scalars
+  Alias variables: 64 scalars
+  Number of mixed real/discrete systems of equations: 1
+  Sizes of linear systems of equations: {6}
+  Sizes after manipulation of the linear systems: {2}
+  Sizes of nonlinear systems of equations: { }
+  Sizes after manipulation of the nonlinear systems: { }
+  Number of numerical Jacobians: 0
+
+Settings
+Advanced.StoreProtectedVariables = true
+Selected continuous time states
+Statically selected continuous time states
+<a href="Modelica://Modelica.Electrical.PowerConverters.Examples.DCDC.ChopperStepUp.ChopperStepUp_R#text$capacitor:v">capacitor.v</a>
+<a href="Modelica://Modelica.Electrical.PowerConverters.Examples.DCDC.ChopperStepUp.ChopperStepUp_R#text$inductor:i">inductor.i</a>
+<a href="Modelica://Modelica.Electrical.PowerConverters.Examples.DCDC.ChopperStepUp.ChopperStepUp_R#text$meanCurrent:x">meanCurrent.x</a>
+<a href="Modelica://Modelica.Electrical.PowerConverters.Examples.DCDC.ChopperStepUp.ChopperStepUp_R#text$meanVoltage:x">meanVoltage.x</a>
+Finished

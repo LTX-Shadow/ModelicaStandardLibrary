@@ -1,28 +1,32 @@
 Log-file of program ./dymosim
-(generated: Tue May  5 00:51:26 2020)
+(generated: Thu Oct 15 14:38:05 2026)
 
 dymosim started
+... "Modelica.Electrical.Batteries.Examples.BatteryDischargeCharge" simulating
 ... "dsin.txt" loading (dymosim input file)
-... "BatteryDischargeCharge.mat" creating (simulation result file)
+... "result.mat" creating (simulation result file)
 
 Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
 Integration terminated successfully at T = 3600
-   CPU-time for integration                : 1.05 seconds
-   CPU-time for one grid interval          : 0.0147 milliseconds
-   CPU-time for initialization             : 0 seconds
-   Number of result points                 : 72030
-   Number of grid points                   : 72001
-   Number of accepted steps                : 2085
-   Number of f-evaluations (dynamics)      : 3809
-   Number of crossing function evaluations : 74085
-   Number of Jacobian-evaluations          : 549
+   CPU-time for integration                : 0.144 seconds
+   CPU-time for one grid interval          : 0.00399 milliseconds
+   CPU-time for initialization             : 0.000124 seconds
+   Number of result points                 : 36030
+   Number of grid points                   : 36001
+   Number of accepted steps                : 1531
+   Number of f-evaluations (dynamics)      : 2744
+   Number of crossing function evaluations : 37531
+   Number of Jacobian-evaluations          : 434
    Number of model time events             : 28
    Number of input time events             : 0
    Number of state events                  : 0
    Number of step events                   : 0
-   Minimum integration stepsize            : 2.88e-11
-   Maximum integration stepsize            : 296
+   Minimum integration stepsize            : 2.88e-10
+   Maximum integration stepsize            : 430
    Maximum integration order               : 5
 Calling terminal section
 ... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of Modelica.Electrical.Batteries.Examples.BatteryDischargeCharge

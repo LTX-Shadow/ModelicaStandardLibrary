@@ -3,8 +3,8 @@ The DAE has 1091 scalar unknowns and 1091 scalar equations.
 Redundant consistent initial conditions.
 Removed the following equations which are redundant and consistent: 
   oLine2.i[1] = 0;
-  oLine3.i[1] = 0;
   oLine4.i[1] = 0;
+  oLine2.i[8] = 0;
 
 The redundancies involve
 initial equations: 
@@ -14,11 +14,6 @@ initial equations:
   oLine3.i[1] = 0;
   oLine3.i[8] = 0;
   oLine4.i[1] = 0;
-
-active start values: 
-  oLine1.L[8].i = 0;
-  oLine2.L[8].i = 0;
-  oLine3.L[8].i = 0;
 
 
 Statistics

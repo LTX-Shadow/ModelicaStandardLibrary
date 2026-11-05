@@ -1,11 +1,10 @@
-﻿ = true
-Translation of Modelica.Magnetic.FluxTubes.Examples.Hysteresis.ThreePhaseTransformerWithRectifier:
+Translation of <a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.ThreePhaseTransformerWithRectifier">Modelica.Magnetic.FluxTubes.Examples.Hysteresis.ThreePhaseTransformerWithRectifier</a>
 The DAE has 490 scalar unknowns and 490 scalar equations.
 Redundant consistent initial conditions.
 Removed the following equations which are redundant and consistent: 
   transformer.winding11.V_m = transformer.winding11.port_p.V_m-transformer.winding11.port_n.V_m;
   transformer.winding13.V_m = transformer.winding13.port_p.V_m-transformer.winding13.port_n.V_m;
- 
+
 This required evaluation of 
 the interactive parameters 
     transformer.HStart[](each start = 0)
@@ -15,35 +14,35 @@ the interactive parameters
     transformer.l2(start = 0.15)
     transformer.N1(start = 200)
     transformer.N2(start = 10)
- 
+
 The redundancies involve
 active start values: 
-  transformer.winding22.i = transformer.I2Start[1];
-  transformer.core2.H = transformer.HStart[2];
-  transformer.winding11.i = transformer.I1Start[1];
-  transformer.winding23.i = transformer.I2Start[1];
-  transformer.core3.H = transformer.HStart[3];
-  transformer.winding21.i = transformer.I2Start[1];
   transformer.winding13.i = transformer.I1Start[3];
   transformer.winding12.i = transformer.I1Start[2];
+  transformer.winding23.i = transformer.I2Start[1];
+  transformer.core2.H = transformer.HStart[2];
+  transformer.winding21.i = transformer.I2Start[1];
+  transformer.winding11.i = transformer.I1Start[1];
+  transformer.winding22.i = transformer.I2Start[1];
   transformer.core1.H = transformer.HStart[1];
- 
- 
+  transformer.core3.H = transformer.HStart[3];
+
+
 Statistics
- 
+
 Original Model
   Number of components: 54
-  Variables: 824
+  Variables: 828
   Constants: 21 (21 scalars)
-  Parameters: 344 (348 scalars)
+  Parameters: 348 (352 scalars)
   Unknowns: 459 (490 scalars)
   Differentiated variables: 38 scalars
   Equations: 473
   Nontrivial: 417
 Translated Model
-  Constants: 122 scalars
+  Constants: 125 scalars
   Free parameters: 119 scalars
-  Parameter depending: 164 scalars
+  Parameter depending: 165 scalars
   Continuous time states: 23 scalars
   Time-varying variables: 205 scalars
   Alias variables: 249 scalars
@@ -53,29 +52,32 @@ Translated Model
   Sizes of nonlinear systems of equations: { }
   Sizes after manipulation of the nonlinear systems: { }
   Number of numerical Jacobians: 0
- 
+
 Settings
 Advanced.StoreProtectedVariables = true
 Selected continuous time states
 Statically selected continuous time states
-  capacitor1.v
-  capacitor2.v
-  pdissCopAvg.x[]
-  pdissEddyAvg.x[]
-  pdissStatAvg.x[]
-  transformer.core1.B
-  transformer.core1.Hstat
-  transformer.core1.MagRel
-  transformer.core2.B
-  transformer.core2.Hstat
-  transformer.core2.MagRel
-  transformer.core3.B
-  transformer.core3.Hstat
-  transformer.core3.MagRel
-  transformer.winding11.i
-  transformer.winding12.i
-  transformer.winding13.i
-  transformer.winding21.i
-  transformer.winding22.i
-  transformer.winding23.i
- 
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.ThreePhaseTransformerWithRectifier#text$capacitor1:v">capacitor1.v</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.ThreePhaseTransformerWithRectifier#text$capacitor2:v">capacitor2.v</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.ThreePhaseTransformerWithRectifier#diagram$:pdissCopAvg.x[1]">pdissCopAvg.x[1]</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.ThreePhaseTransformerWithRectifier#diagram$:pdissCopAvg.x[2]">pdissCopAvg.x[2]</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.ThreePhaseTransformerWithRectifier#diagram$:pdissEddyAvg.x[1]">pdissEddyAvg.x[1]</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.ThreePhaseTransformerWithRectifier#diagram$:pdissEddyAvg.x[2]">pdissEddyAvg.x[2]</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.ThreePhaseTransformerWithRectifier#diagram$:pdissStatAvg.x[1]">pdissStatAvg.x[1]</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.ThreePhaseTransformerWithRectifier#diagram$:pdissStatAvg.x[2]">pdissStatAvg.x[2]</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.ThreePhaseTransformerWithRectifier#text$transformer.core1:B">transformer.core1.B</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.ThreePhaseTransformerWithRectifier#text$transformer.core1:Hstat">transformer.core1.Hstat</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.ThreePhaseTransformerWithRectifier#text$transformer.core1:MagRel">transformer.core1.MagRel</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.ThreePhaseTransformerWithRectifier#text$transformer.core2:B">transformer.core2.B</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.ThreePhaseTransformerWithRectifier#text$transformer.core2:Hstat">transformer.core2.Hstat</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.ThreePhaseTransformerWithRectifier#text$transformer.core2:MagRel">transformer.core2.MagRel</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.ThreePhaseTransformerWithRectifier#text$transformer.core3:B">transformer.core3.B</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.ThreePhaseTransformerWithRectifier#text$transformer.core3:Hstat">transformer.core3.Hstat</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.ThreePhaseTransformerWithRectifier#text$transformer.core3:MagRel">transformer.core3.MagRel</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.ThreePhaseTransformerWithRectifier#text$transformer.winding11:i">transformer.winding11.i</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.ThreePhaseTransformerWithRectifier#text$transformer.winding12:i">transformer.winding12.i</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.ThreePhaseTransformerWithRectifier#text$transformer.winding13:i">transformer.winding13.i</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.ThreePhaseTransformerWithRectifier#text$transformer.winding21:i">transformer.winding21.i</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.ThreePhaseTransformerWithRectifier#text$transformer.winding22:i">transformer.winding22.i</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.ThreePhaseTransformerWithRectifier#text$transformer.winding23:i">transformer.winding23.i</a>
+Finished

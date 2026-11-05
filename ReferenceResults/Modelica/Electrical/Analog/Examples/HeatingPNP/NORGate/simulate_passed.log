@@ -1,0 +1,40 @@
+Log-file of program ./dymosim
+(generated: Thu Oct 15 14:37:29 2026)
+
+dymosim started
+... "Modelica.Electrical.Analog.Examples.HeatingPNP_NORGate" simulating
+... "dsin.txt" loading (dymosim input file)
+... "result.mat" creating (simulation result file)
+
+Integration started at T = 0 using integration method DASSL
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
+Warning: Failed to solve nonlinear system using Newton solver.
+  Time: 58.00104788307404
+  Tag: simulation.nonlinear[1]
+  For debugging information enable
+  Simulation/Setup/Debug/Nonlinear solver diagnostics/Detailed logging of failed nonlinear solutions.
+Solver will attempt to handle this problem.
+
+
+Integration terminated successfully at T = 200
+   CPU-time for integration                : 0.0356 seconds
+   CPU-time for one grid interval          : 0.00712 milliseconds
+   CPU-time for initialization             : 0.000109 seconds
+   Number of result points                 : 5023
+   Number of grid points                   : 5001
+   Number of accepted steps                : 721
+   Number of f-evaluations (dynamics)      : 1134
+   Number of crossing function evaluations : 5721
+   Number of Jacobian-evaluations          : 497
+   Number of model time events             : 26
+   Number of input time events             : 0
+   Number of state events                  : 0
+   Number of step events                   : 0
+   Minimum integration stepsize            : 4e-05
+   Maximum integration stepsize            : 19
+   Maximum integration order               : 5
+Calling terminal section
+... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of Modelica.Electrical.Analog.Examples.HeatingPNP_NORGate

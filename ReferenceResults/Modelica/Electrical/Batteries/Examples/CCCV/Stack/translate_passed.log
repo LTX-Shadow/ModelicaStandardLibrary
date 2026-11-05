@@ -1,0 +1,46 @@
+Translation of <a href="Modelica://Modelica.Electrical.Batteries.Examples.CCCV_Stack">Modelica.Electrical.Batteries.Examples.CCCV_Stack</a>
+The DAE has 837 scalar unknowns and 837 scalar equations.
+
+Statistics
+
+Original Model
+  Number of components: 165
+  Variables: 1649
+  Constants: 30 (30 scalars)
+  Parameters: 812 (4581 scalars)
+  Unknowns: 807 (837 scalars)
+  Differentiated variables: 13 scalars
+  Equations: 675
+  Nontrivial: 543
+Translated Model
+  Constants: 2067 scalars
+  Free parameters: 79 scalars
+  Parameter depending: 2556 scalars
+  Continuous time states: 13 scalars
+  Time-varying variables: 157 scalars
+  Alias variables: 589 scalars
+  Number of mixed real/discrete systems of equations: 1
+  Sizes of linear systems of equations: {16}
+  Sizes after manipulation of the linear systems: {3}
+  Sizes of nonlinear systems of equations: { }
+  Sizes after manipulation of the nonlinear systems: { }
+  Number of numerical Jacobians: 0
+
+Settings
+Advanced.StoreProtectedVariables = true
+Selected continuous time states
+Statically selected continuous time states
+<a href="Modelica://Modelica.Electrical.Batteries.Examples.CCCV_Stack#diagram$:energy.y">energy.y</a>
+<a href="Modelica://Modelica.Electrical.Batteries.Examples.CCCV_Stack#diagram$stack.cell[1, 1].cell:limIntegrator.y">stack.cell[1, 1].cell.limIntegrator.y</a>
+<a href="Modelica://Modelica.Electrical.Batteries.Examples.CCCV_Stack#diagram$stack.cell[1, 1]:limIntegrator.y">stack.cell[1, 1].limIntegrator.y</a>
+<a href="Modelica://Modelica.Electrical.Batteries.Examples.CCCV_Stack#diagram$stack.cell[1, 2].cell:limIntegrator.y">stack.cell[1, 2].cell.limIntegrator.y</a>
+<a href="Modelica://Modelica.Electrical.Batteries.Examples.CCCV_Stack#diagram$stack.cell[1, 2]:limIntegrator.y">stack.cell[1, 2].limIntegrator.y</a>
+<a href="Modelica://Modelica.Electrical.Batteries.Examples.CCCV_Stack#diagram$stack.cell[2, 1].cell:limIntegrator.y">stack.cell[2, 1].cell.limIntegrator.y</a>
+<a href="Modelica://Modelica.Electrical.Batteries.Examples.CCCV_Stack#diagram$stack.cell[2, 1]:limIntegrator.y">stack.cell[2, 1].limIntegrator.y</a>
+<a href="Modelica://Modelica.Electrical.Batteries.Examples.CCCV_Stack#diagram$stack.cell[2, 2].cell:limIntegrator.y">stack.cell[2, 2].cell.limIntegrator.y</a>
+<a href="Modelica://Modelica.Electrical.Batteries.Examples.CCCV_Stack#diagram$stack.cell[2, 2]:limIntegrator.y">stack.cell[2, 2].limIntegrator.y</a>
+<a href="Modelica://Modelica.Electrical.Batteries.Examples.CCCV_Stack#diagram$stack.cell[3, 1].cell:limIntegrator.y">stack.cell[3, 1].cell.limIntegrator.y</a>
+<a href="Modelica://Modelica.Electrical.Batteries.Examples.CCCV_Stack#diagram$stack.cell[3, 1]:limIntegrator.y">stack.cell[3, 1].limIntegrator.y</a>
+<a href="Modelica://Modelica.Electrical.Batteries.Examples.CCCV_Stack#diagram$stack.cell[3, 2].cell:limIntegrator.y">stack.cell[3, 2].cell.limIntegrator.y</a>
+<a href="Modelica://Modelica.Electrical.Batteries.Examples.CCCV_Stack#diagram$stack.cell[3, 2]:limIntegrator.y">stack.cell[3, 2].limIntegrator.y</a>
+Finished

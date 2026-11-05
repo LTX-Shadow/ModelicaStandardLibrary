@@ -1,36 +1,35 @@
-﻿ = true
-Translation of Modelica.Electrical.Polyphase.Examples.TransformerYD:
-The DAE has 285 scalar unknowns and 285 scalar equations.
- 
+Translation of <a href="Modelica://Modelica.Electrical.Polyphase.Examples.TransformerYD">Modelica.Electrical.Polyphase.Examples.TransformerYD</a>
+The DAE has 288 scalar unknowns and 288 scalar equations.
+
 Statistics
- 
+
 Original Model
   Number of components: 31
-  Variables: 388
-  Parameters: 127 (159 scalars)
-  Unknowns: 261 (285 scalars)
+  Variables: 392
+  Parameters: 130 (162 scalars)
+  Unknowns: 262 (288 scalars)
   Differentiated variables: 3 scalars
-  Equations: 148
+  Equations: 149
   Nontrivial: 124
 Translated Model
-  Constants: 93 scalars
+  Constants: 99 scalars
   Free parameters: 24 scalars
-  Parameter depending: 87 scalars
+  Parameter depending: 84 scalars
   Continuous time states: 3 scalars
   Time-varying variables: 48 scalars
-  Alias variables: 192 scalars
+  Alias variables: 195 scalars
   Number of mixed real/discrete systems of equations: 0
   Sizes of linear systems of equations: { }
   Sizes after manipulation of the linear systems: { }
   Sizes of nonlinear systems of equations: { }
   Sizes after manipulation of the nonlinear systems: { }
   Number of numerical Jacobians: 0
- 
+
 Settings
 Advanced.StoreProtectedVariables = true
 Selected continuous time states
 Statically selected continuous time states
-  transformerL.inductor[1].i
-  transformerL.inductor[2].i
-  transformerL.inductor[3].i
- 
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.TransformerYD#text$transformerL.inductor:i">transformerL.inductor[1].i</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.TransformerYD#text$transformerL.inductor:i">transformerL.inductor[2].i</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.TransformerYD#text$transformerL.inductor:i">transformerL.inductor[3].i</a>
+Finished

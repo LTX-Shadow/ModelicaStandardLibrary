@@ -1,22 +1,26 @@
 Log-file of program ./dymosim
-(generated: Tue May  5 00:28:59 2020)
+(generated: Thu Oct 15 14:37:25 2026)
 
 dymosim started
+... "Modelica.Blocks.Examples.Rectifier6pulseFFT" simulating
 ... "dsin.txt" loading (dymosim input file)
-... "Rectifier6pulseFFT.mat" creating (simulation result file)
+... "result.mat" creating (simulation result file)
 
 Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
 Integration terminated successfully at T = 0.25
-   CPU-time for integration                : 4.65 seconds
-   CPU-time for one grid interval          : 0.93 milliseconds
-   CPU-time for initialization             : 0.004 seconds
-   Number of result points                 : 9502
-   Number of grid points                   : 5001
-   Number of accepted steps                : 79617
-   Number of f-evaluations (dynamics)      : 110475
-   Number of crossing function evaluations : 85670
-   Number of Jacobian-evaluations          : 60069
+  WARNING: You have many time events. This is probably due to fast sampling.
+  Enable logging of event in Simulation/Setup/Debug/Events during simulation
+   CPU-time for integration                : 0.552 seconds
+   CPU-time for one grid interval          : 0.221 milliseconds
+   CPU-time for initialization             : 0.00097 seconds
+   Number of result points                 : 9102
+   Number of grid points                   : 2501
+   Number of accepted steps                : 9277
+   Number of f-evaluations (dynamics)      : 17784
+   Number of crossing function evaluations : 19394
+   Number of Jacobian-evaluations          : 2768
    Number of model time events             : 4201
    Number of input time events             : 0
    Number of state events                  : 150
@@ -25,5 +29,7 @@ Integration terminated successfully at T = 0.25
    Maximum integration stepsize            : 0.000113
    Maximum integration order               : 5
 Calling terminal section
-... FFT result computed at time = 0.23995 s stored on file: C:/Users/tbeu/Documents/Dymola/rectifier6pulseFFTresult.mat
+... FFT result computed at time = 0.23995 s stored on file: /work/resim_output/PRs/PR_12/Modelica/Testruns/Dymola/20261015143632/Modelica.Blocks.Examples.Rectifier6pulseFFT/WorkDir/rectifier6pulseFFTresult.mat
 ... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of Modelica.Blocks.Examples.Rectifier6pulseFFT

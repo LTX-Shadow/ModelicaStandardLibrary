@@ -1,22 +1,21 @@
-﻿ = true
-Translation of Modelica.Magnetic.FluxTubes.Examples.Hysteresis.HysteresisModelComparison:
+Translation of <a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.HysteresisModelComparison">Modelica.Magnetic.FluxTubes.Examples.Hysteresis.HysteresisModelComparison</a>
 The DAE has 404 scalar unknowns and 404 scalar equations.
- 
+
 Statistics
- 
+
 Original Model
   Number of components: 27
-  Variables: 328
+  Variables: 334
   Constants: 6 (6 scalars)
-  Parameters: 116 (947 scalars)
+  Parameters: 122 (953 scalars)
   Unknowns: 206 (404 scalars)
   Differentiated variables: 25 scalars
   Equations: 191
   Nontrivial: 170
 Translated Model
-  Constants: 70 scalars
-  Free parameters: 486 scalars
-  Parameter depending: 433 scalars
+  Constants: 66 scalars
+  Free parameters: 488 scalars
+  Parameter depending: 441 scalars
   Continuous time states: 12 scalars
   Time-varying variables: 290 scalars
   Alias variables: 78 scalars
@@ -30,21 +29,21 @@ Translated Model
     Sizes of nonlinear systems of equations: {1}
     Sizes after manipulation of the nonlinear systems: {1}
     Number of numerical Jacobians: 1
- 
+
 Settings
 Advanced.StoreProtectedVariables = true
 Selected continuous time states
 Statically selected continuous time states
-  preisachEverett.beta
-  preisachEverett.J
-  preisachEverett.MagRel
-  preisachEverett.v
-  preisachEverett.x
-  tellinenSoft.B
-  tellinenSoft.MagRel
-  tellinenTable.B
-  tellinenTable.MagRel
-  winding1.i
-  winding2.i
-  winding3.i
- 
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.HysteresisModelComparison#text$preisachEverett:beta">preisachEverett.beta</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.HysteresisModelComparison#text$preisachEverett:J">preisachEverett.J</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.HysteresisModelComparison#text$preisachEverett:MagRel">preisachEverett.MagRel</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.HysteresisModelComparison#text$preisachEverett:v">preisachEverett.v</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.HysteresisModelComparison#text$preisachEverett:x">preisachEverett.x</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.HysteresisModelComparison#text$tellinenSoft:B">tellinenSoft.B</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.HysteresisModelComparison#text$tellinenSoft:MagRel">tellinenSoft.MagRel</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.HysteresisModelComparison#text$tellinenTable:B">tellinenTable.B</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.HysteresisModelComparison#text$tellinenTable:MagRel">tellinenTable.MagRel</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.HysteresisModelComparison#text$winding1:i">winding1.i</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.HysteresisModelComparison#text$winding2:i">winding2.i</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.HysteresisModelComparison#text$winding3:i">winding3.i</a>
+Finished

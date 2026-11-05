@@ -13,9 +13,9 @@ Original Model
   Equations: 699
   Nontrivial: 596
 Translated Model
-  Constants: 748 scalars
+  Constants: 742 scalars
   Free parameters: 97 scalars
-  Parameter depending: 253 scalars
+  Parameter depending: 259 scalars
   Continuous time states: 13 scalars
   Time-varying variables: 264 scalars
   Alias variables: 739 scalars

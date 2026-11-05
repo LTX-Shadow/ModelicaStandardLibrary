@@ -1,18 +1,20 @@
 Log-file of program ./dymosim
-(generated: Tue May  5 01:09:40 2020)
+(generated: Thu Oct 15 14:39:07 2026)
 
 dymosim started
+... "Modelica.Electrical.Polyphase.Examples.TestSensors" simulating
 ... "dsin.txt" loading (dymosim input file)
-... "TestSensors.mat" creating (simulation result file)
+... "result.mat" creating (simulation result file)
 
 Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
 Integration terminated successfully at T = 0.1
-   CPU-time for integration                : 0.036 seconds
-   CPU-time for one grid interval          : 0.018 milliseconds
-   CPU-time for initialization             : 0.001 seconds
-   Number of result points                 : 2002
-   Number of grid points                   : 2001
+   CPU-time for integration                : 0.0044 seconds
+   CPU-time for one grid interval          : 0.0044 milliseconds
+   CPU-time for initialization             : 0.000104 seconds
+   Number of result points                 : 1002
+   Number of grid points                   : 1001
    Number of accepted steps                : 431
    Number of f-evaluations (dynamics)      : 847
    Number of Jacobian-evaluations          : 29
@@ -25,3 +27,5 @@ Integration terminated successfully at T = 0.1
    Maximum integration order               : 5
 Calling terminal section
 ... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of Modelica.Electrical.Polyphase.Examples.TestSensors

@@ -1,28 +1,32 @@
 Log-file of program ./dymosim
-(generated: Tue May  5 01:34:43 2020)
+(generated: Thu Oct 15 14:40:10 2026)
 
 dymosim started
+... "Modelica.Magnetic.FluxTubes.Examples.Hysteresis.HysteresisModelComparison" simulating
 ... "dsin.txt" loading (dymosim input file)
-... "HysteresisModelComparison.mat" creating (simulation result file)
+... "result.mat" creating (simulation result file)
 
 Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
 Integration terminated successfully at T = 14
-   CPU-time for integration                : 0.235 seconds
-   CPU-time for one grid interval          : 0.0252 milliseconds
-   CPU-time for initialization             : 0.008 seconds
-   Number of result points                 : 9494
-   Number of grid points                   : 9335
-   Number of accepted steps                : 3098
-   Number of f-evaluations (dynamics)      : 6488
-   Number of crossing function evaluations : 12820
-   Number of Jacobian-evaluations          : 1443
+   CPU-time for integration                : 0.0467 seconds
+   CPU-time for one grid interval          : 0.01 milliseconds
+   CPU-time for initialization             : 0.000218 seconds
+   Number of result points                 : 4831
+   Number of grid points                   : 4668
+   Number of accepted steps                : 2006
+   Number of f-evaluations (dynamics)      : 3960
+   Number of crossing function evaluations : 7100
+   Number of Jacobian-evaluations          : 991
    Number of model time events             : 14
    Number of input time events             : 0
    Number of state events                  : 68
    Number of step events                   : 0
-   Minimum integration stepsize            : 3.46e-12
-   Maximum integration stepsize            : 0.0328
+   Minimum integration stepsize            : 3.46e-11
+   Maximum integration stepsize            : 0.0679
    Maximum integration order               : 5
 Calling terminal section
 ... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of Modelica.Magnetic.FluxTubes.Examples.Hysteresis.HysteresisModelComparison

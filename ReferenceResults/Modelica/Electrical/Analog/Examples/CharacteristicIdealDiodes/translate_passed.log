@@ -1,19 +1,18 @@
-﻿ = true
-Translation of Modelica.Electrical.Analog.Examples.CharacteristicIdealDiodes:
+Translation of <a href="Modelica://Modelica.Electrical.Analog.Examples.CharacteristicIdealDiodes">Modelica.Electrical.Analog.Examples.CharacteristicIdealDiodes</a>
 The DAE has 80 scalar unknowns and 80 scalar equations.
- 
+
 Statistics
- 
+
 Original Model
   Number of components: 14
-  Variables: 146
+  Variables: 149
   Constants: 6 (6 scalars)
-  Parameters: 60 (60 scalars)
+  Parameters: 63 (63 scalars)
   Unknowns: 80 (80 scalars)
   Equations: 76
   Nontrivial: 63
 Translated Model
-  Constants: 19 scalars
+  Constants: 22 scalars
   Free parameters: 36 scalars
   Parameter depending: 21 scalars
   Time-varying variables: 25 scalars
@@ -24,7 +23,8 @@ Translated Model
   Sizes of nonlinear systems of equations: { }
   Sizes after manipulation of the nonlinear systems: { }
   Number of numerical Jacobians: 0
- 
+
 Settings
 Advanced.StoreProtectedVariables = true
 Selected continuous time states
+Finished

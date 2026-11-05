@@ -1,22 +1,18 @@
 within Modelica.Electrical.Analog.Basic;
 model Resistor "Ideal linear electrical resistor"
-  parameter SI.Resistance R(start=1)
-    "Resistance at temperature T_ref";
-  parameter SI.Temperature T_ref=300.15 "Reference temperature";
-  parameter SI.LinearTemperatureCoefficient alpha=0
-    "Temperature coefficient of resistance (R_actual = R*(1 + alpha*(T_heatPort - T_ref)))";
+  parameter SI.Resistance R( start = 1 ) "Resistance at temperature T_ref";
+  parameter SI.Temperature T_ref = 300.15 "Reference temperature";
+  parameter SI.LinearTemperatureCoefficient alpha=0  "Temperature coefficient of resistance (R_actual = R * (1 + alpha * (T_heatPort - T_ref)) )";
 
   extends Modelica.Electrical.Analog.Interfaces.OnePort;
   extends Modelica.Electrical.Analog.Interfaces.ConditionalHeatPort(T=T_ref);
-  SI.Resistance R_actual
-    "Actual resistance = R*(1 + alpha*(T_heatPort - T_ref))";
+  SI.Resistance R_actual  "Actual resistance = R * (1 + alpha * (T_heatPort - T_ref) )";
 
 equation
-  assert((1 + alpha*(T_heatPort - T_ref)) >= Modelica.Constants.eps,
-    "Temperature outside scope of model!");
-  R_actual = R*(1 + alpha*(T_heatPort - T_ref));
-  v = R_actual*i;
-  LossPower = v*i;
+  assert( (1 + alpha * (T_heatPort - T_ref) )  >=  Modelica.Constants.eps,  "Temperature outside scope of model!" );
+  R_actual = R * (1 + alpha * (T_heatPort - T_ref) );
+  v = R_actual * i;
+  LossPower = v * i;
   annotation (
     Documentation(info="<html>
 <p>The linear resistor connects the branch voltage <em>v</em> with the branch current <em>i</em> by <em>i*R = v</em>. The Resistance <em>R</em> is allowed to be positive, zero, or negative.</p>
@@ -45,7 +41,7 @@ equation
         Line(points={{70,0},{90,0}}, color={0,0,255}),
         Text(
           extent={{-150,-40},{150,-80}},
-          textString="R=%R"),
+          textString="R = %R"),
         Line(
           visible=useHeatPort,
           points={{0,-100},{0,-30}},

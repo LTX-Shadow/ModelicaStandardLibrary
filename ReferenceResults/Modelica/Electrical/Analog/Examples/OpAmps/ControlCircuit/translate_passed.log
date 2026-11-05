@@ -1,45 +1,38 @@
-﻿ = true
-Translation of Modelica.Electrical.Analog.Examples.OpAmps.ControlCircuit:
-The DAE has 311 scalar unknowns and 311 scalar equations.
- 
+Translation of <a href="Modelica://Modelica.Electrical.Analog.Examples.OpAmps.ControlCircuit">Modelica.Electrical.Analog.Examples.OpAmps.ControlCircuit</a>
+The DAE has 327 scalar unknowns and 327 scalar equations.
+
 Statistics
- 
+
 Original Model
   Number of components: 39
-  Variables: 484
-  Parameters: 173 (173 scalars)
-  Unknowns: 311 (311 scalars)
+  Variables: 505
+  Parameters: 178 (178 scalars)
+  Unknowns: 327 (327 scalars)
   Differentiated variables: 6 scalars
-  Equations: 282
-  Nontrivial: 232
+  Equations: 303
+  Nontrivial: 247
 Translated Model
   Constants: 78 scalars
   Free parameters: 73 scalars
   Parameter depending: 82 scalars
   Continuous time states: 6 scalars
-  Time-varying variables: 79 scalars
-  Alias variables: 172 scalars
+  Time-varying variables: 97 scalars
+  Alias variables: 175 scalars
   Number of mixed real/discrete systems of equations: 0
   Sizes of linear systems of equations: {3}
   Sizes after manipulation of the linear systems: {0}
-  Sizes of nonlinear systems of equations: {2, 5, 5, 2, 8}
+  Sizes of nonlinear systems of equations: {3, 6, 7, 3, 9}
   Sizes after manipulation of the nonlinear systems: {1, 1, 1, 1, 2}
   Number of numerical Jacobians: 0
-  Initialization problem
-    Sizes of linear systems of equations: {3}
-    Sizes after manipulation of the linear systems: {0}
-    Sizes of nonlinear systems of equations: {1, 1, 1, 5}
-    Sizes after manipulation of the nonlinear systems: {1, 1, 1, 1}
-    Number of numerical Jacobians: 0
- 
+
 Settings
 Advanced.StoreProtectedVariables = true
 Selected continuous time states
 Statically selected continuous time states
-  firstOrder1A.c.v
-  firstOrder1B.y
-  firstOrder2A.c.v
-  firstOrder2B.y
-  PIA.c.v
-  PIB.x
- 
+<a href="Modelica://Modelica.Electrical.Analog.Examples.OpAmps.ControlCircuit#text$firstOrder1A.c:v">firstOrder1A.c.v</a>
+<a href="Modelica://Modelica.Electrical.Analog.Examples.OpAmps.ControlCircuit#diagram$:firstOrder1B.y">firstOrder1B.y</a>
+<a href="Modelica://Modelica.Electrical.Analog.Examples.OpAmps.ControlCircuit#text$firstOrder2A.c:v">firstOrder2A.c.v</a>
+<a href="Modelica://Modelica.Electrical.Analog.Examples.OpAmps.ControlCircuit#diagram$:firstOrder2B.y">firstOrder2B.y</a>
+<a href="Modelica://Modelica.Electrical.Analog.Examples.OpAmps.ControlCircuit#text$PIA.c:v">PIA.c.v</a>
+<a href="Modelica://Modelica.Electrical.Analog.Examples.OpAmps.ControlCircuit#text$PIB:x">PIB.x</a>
+Finished

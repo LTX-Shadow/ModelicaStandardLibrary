@@ -1,0 +1,32 @@
+Log-file of program ./dymosim
+(generated: Thu Oct 15 14:40:30 2026)
+
+dymosim started
+... "Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_Steinmetz" simulating
+... "dsin.txt" loading (dymosim input file)
+... "result.mat" creating (simulation result file)
+
+Integration started at T = 0 using integration method DASSL
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
+Integration terminated successfully at T = 1
+   CPU-time for integration                : 0.0731 seconds
+   CPU-time for one grid interval          : 0.00731 milliseconds
+   CPU-time for initialization             : 0.000108 seconds
+   Number of result points                 : 10005
+   Number of grid points                   : 10001
+   Number of accepted steps                : 3513
+   Number of f-evaluations (dynamics)      : 7372
+   Number of crossing function evaluations : 13519
+   Number of Jacobian-evaluations          : 252
+   Number of model time events             : 1
+   Number of input time events             : 0
+   Number of state events                  : 1
+   Number of step events                   : 0
+   Minimum integration stepsize            : 1.89e-10
+   Maximum integration stepsize            : 0.00156
+   Maximum integration order               : 5
+Calling terminal section
+... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_Steinmetz

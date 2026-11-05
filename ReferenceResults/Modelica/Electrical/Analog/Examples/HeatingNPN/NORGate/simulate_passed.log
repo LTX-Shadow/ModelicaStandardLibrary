@@ -1,0 +1,136 @@
+Log-file of program ./dymosim
+(generated: Thu Oct 15 14:37:27 2026)
+
+dymosim started
+... "Modelica.Electrical.Analog.Examples.HeatingNPN_NORGate" simulating
+... "dsin.txt" loading (dymosim input file)
+... "result.mat" creating (simulation result file)
+
+Integration started at T = 0 using integration method DASSL
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
+Warning: Failed to solve nonlinear system using Newton solver.
+  Time: 58.00104788307211
+  Tag: simulation.nonlinear[1]
+  For debugging information enable
+  Simulation/Setup/Debug/Nonlinear solver diagnostics/Detailed logging of failed nonlinear solutions.
+Solver will attempt to handle this problem.
+
+
+Warning: Failed to solve nonlinear system using Newton solver.
+  Time: 66.96604000000032
+  Tag: simulation.nonlinear[1]
+Solver will attempt to handle this problem.
+
+
+Warning: Failed to solve nonlinear system using Newton solver.
+  Time: 69.55471200000073
+  Tag: simulation.nonlinear[1]
+Solver will attempt to handle this problem.
+
+
+Warning: Failed to solve nonlinear system using Newton solver.
+  Time: 76.3106800000002
+  Tag: simulation.nonlinear[1]
+Solver will attempt to handle this problem.
+
+
+Warning: Failed to solve nonlinear system using Newton solver.
+  Time: 78.11292000000049
+  Tag: simulation.nonlinear[1]
+Solver will attempt to handle this problem.
+
+
+Warning: Failed to solve nonlinear system using Newton solver.
+  Time: 107.8752972139293
+  Tag: simulation.nonlinear[1]
+Solver will attempt to handle this problem.
+
+
+Warning: Failed to solve nonlinear system using Newton solver.
+  Time: 115.9830000000002
+  Tag: simulation.nonlinear[1]
+Solver will attempt to handle this problem.
+
+
+Warning: Failed to solve nonlinear system using Newton solver.
+  Time: 116.0649200000002
+  Tag: simulation.nonlinear[1]
+Solver will attempt to handle this problem.
+
+
+Warning: Failed to solve nonlinear system using Newton solver.
+  Time: 126.3106800000002
+  Tag: simulation.nonlinear[1]
+Solver will attempt to handle this problem.
+
+
+Warning: Failed to solve nonlinear system using Newton solver.
+  Time: 126.8022000000003
+  Tag: simulation.nonlinear[1]
+Solver will attempt to handle this problem.
+
+
+Warning: Failed to solve nonlinear system using Newton solver.
+  Time: 127.9490800000005
+  Tag: simulation.nonlinear[1]
+Solver will attempt to handle this problem.
+
+
+Warning: Failed to solve nonlinear system using Newton solver.
+  Time: 157.8359752543006
+  Tag: simulation.nonlinear[1]
+Solver will attempt to handle this problem.
+
+
+Warning: Failed to solve nonlinear system using Newton solver.
+  Time: 165.6553199999999
+  Tag: simulation.nonlinear[1]
+Solver will attempt to handle this problem.
+
+
+Warning: Failed to solve nonlinear system using Newton solver.
+  Time: 166.8841199999996
+  Tag: simulation.nonlinear[1]
+Solver will attempt to handle this problem.
+
+
+Warning: Failed to solve nonlinear system using Newton solver.
+  Time: 167.7033199999995
+  Tag: simulation.nonlinear[1]
+Solver will attempt to handle this problem.
+
+
+Warning: Failed to solve nonlinear system using Newton solver.
+  Time: 176.3106799999997
+  Tag: simulation.nonlinear[1]
+Solver will attempt to handle this problem.
+
+
+Warning: Failed to solve nonlinear system using Newton solver.
+  Time: 178.7682799999992
+  Tag: simulation.nonlinear[1]
+Solver will attempt to handle this problem.
+
+
+Integration terminated successfully at T = 200
+   CPU-time for integration                : 0.0604 seconds
+   CPU-time for one grid interval          : 0.0121 milliseconds
+   CPU-time for initialization             : 0.000108 seconds
+   Number of result points                 : 5023
+   Number of grid points                   : 5001
+   Number of accepted steps                : 740
+   Number of f-evaluations (dynamics)      : 1185
+   Number of crossing function evaluations : 5740
+   Number of Jacobian-evaluations          : 529
+   Number of model time events             : 26
+   Number of input time events             : 0
+   Number of state events                  : 0
+   Number of step events                   : 0
+   Minimum integration stepsize            : 4e-05
+   Maximum integration stepsize            : 19
+   Maximum integration order               : 5
+Calling terminal section
+... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of Modelica.Electrical.Analog.Examples.HeatingNPN_NORGate

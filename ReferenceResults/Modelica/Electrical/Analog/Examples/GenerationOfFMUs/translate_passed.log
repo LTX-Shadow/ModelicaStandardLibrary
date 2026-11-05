@@ -1,5 +1,4 @@
-﻿ = true
-Translation of Modelica.Electrical.Analog.Examples.GenerationOfFMUs:
+Translation of <a href="Modelica://Modelica.Electrical.Analog.Examples.GenerationOfFMUs">Modelica.Electrical.Analog.Examples.GenerationOfFMUs</a>
 The DAE has 306 scalar unknowns and 306 scalar equations.
 Redundant consistent initial conditions.
 Removed the following equations which are redundant and consistent: 
@@ -17,34 +16,34 @@ Removed the following equations which are redundant and consistent:
   else
     inverseInductor3.currentToVoltage.u = inverseInductor3.currentToVoltage.f;
   end if;
- 
+
 This required evaluation of 
 the interactive start values of 
     directCapacitor1.capacitor.v(start = 0)
     directInductor3.inductor.i(start = 0)
     inverseCapacitor1.capacitor.v(start = 0)
     inverseInductor3.inductor.i(start = 0)
- 
+
 The redundancies involve
 active start values: 
   directCapacitor1.capacitor.v = 0;
-  inverseCapacitor1.capacitor.v = 0;
   directInductor3.inductor.i = 0;
   inverseInductor3.inductor.i = 0;
- 
- 
+  inverseCapacitor1.capacitor.v = 0;
+
+
 Statistics
- 
+
 Original Model
   Number of components: 45
-  Variables: 460
-  Parameters: 154 (154 scalars)
+  Variables: 462
+  Parameters: 156 (156 scalars)
   Unknowns: 306 (306 scalars)
   Differentiated variables: 10 scalars
   Equations: 307
   Nontrivial: 241
 Translated Model
-  Constants: 206 scalars
+  Constants: 208 scalars
   Free parameters: 24 scalars
   Parameter depending: 10 scalars
   Continuous time states: 6 scalars
@@ -56,15 +55,15 @@ Translated Model
   Sizes of nonlinear systems of equations: { }
   Sizes after manipulation of the nonlinear systems: { }
   Number of numerical Jacobians: 0
- 
+
 Settings
 Advanced.StoreProtectedVariables = true
 Selected continuous time states
 Statically selected continuous time states
-  capacitor2a.v
-  capacitor2b.v
-  directCapacitor1.capacitor.v
-  directInductor3.inductor.i
-  inductor4a.i
-  inductor4b.i
- 
+<a href="Modelica://Modelica.Electrical.Analog.Examples.GenerationOfFMUs#text$capacitor2a:v">capacitor2a.v</a>
+<a href="Modelica://Modelica.Electrical.Analog.Examples.GenerationOfFMUs#text$capacitor2b:v">capacitor2b.v</a>
+<a href="Modelica://Modelica.Electrical.Analog.Examples.GenerationOfFMUs#text$directCapacitor1.capacitor:v">directCapacitor1.capacitor.v</a>
+<a href="Modelica://Modelica.Electrical.Analog.Examples.GenerationOfFMUs#text$directInductor3.inductor:i">directInductor3.inductor.i</a>
+<a href="Modelica://Modelica.Electrical.Analog.Examples.GenerationOfFMUs#text$inductor4a:i">inductor4a.i</a>
+<a href="Modelica://Modelica.Electrical.Analog.Examples.GenerationOfFMUs#text$inductor4b:i">inductor4b.i</a>
+Finished

@@ -1,23 +1,23 @@
-﻿ = true
-Translation of Modelica.Magnetic.FluxTubes.Examples.MovingCoilActuator.ArmatureStroke:
-The DAE has 245 scalar unknowns and 245 scalar equations.
- 
+Translation of <a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.MovingCoilActuator.ArmatureStroke">Modelica.Magnetic.FluxTubes.Examples.MovingCoilActuator.ArmatureStroke</a>
+The DAE has 249 scalar unknowns and 249 scalar equations.
+
 Statistics
- 
+
 Original Model
   Number of components: 37
-  Variables: 375
-  Parameters: 130 (130 scalars)
-  Unknowns: 245 (245 scalars)
+  Variables: 388
+  Constants: 1 (1 scalars)
+  Parameters: 138 (138 scalars)
+  Unknowns: 249 (249 scalars)
   Differentiated variables: 22 scalars
-  Equations: 218
-  Nontrivial: 179
+  Equations: 221
+  Nontrivial: 182
 Translated Model
-  Constants: 63 scalars
-  Free parameters: 38 scalars
-  Parameter depending: 59 scalars
+  Constants: 64 scalars
+  Free parameters: 42 scalars
+  Parameter depending: 63 scalars
   Continuous time states: 6 scalars
-  Time-varying variables: 82 scalars
+  Time-varying variables: 86 scalars
   Alias variables: 133 scalars
   Number of mixed real/discrete systems of equations: 0
   Sizes of linear systems of equations: {7, 4, 3, 3}
@@ -25,22 +25,21 @@ Translated Model
   Sizes of nonlinear systems of equations: { }
   Sizes after manipulation of the nonlinear systems: { }
   Number of numerical Jacobians: 0
- 
+
 Settings
 Advanced.StoreProtectedVariables = true
 Selected continuous time states
 Statically selected continuous time states
-  cActuator.armature.stopper_xMax.v_rel
-  cActuator.l.i
-  cActuator.x
-  pmActuator.armature.stopper_xMax.v_rel
-  pmActuator.x
- 
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.MovingCoilActuator.ArmatureStroke#text$cActuator.armature.stopper_xMax:v_rel">cActuator.armature.stopper_xMax.v_rel</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.MovingCoilActuator.ArmatureStroke#text$cActuator.l:i">cActuator.l.i</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.MovingCoilActuator.ArmatureStroke#text$cActuator:x">cActuator.x</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.MovingCoilActuator.ArmatureStroke#text$pmActuator.armature.stopper_xMax:v_rel">pmActuator.armature.stopper_xMax.v_rel</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.MovingCoilActuator.ArmatureStroke#text$pmActuator:x">pmActuator.x</a>
 Dynamically selected continuous time states
 There is one set of dynamic state selection.
 There is one state to be selected from:
-  pmActuator.coil.i
-  pmActuator.coil.Phi
-  pmActuator.g_ma.port_p.Phi
-  pmActuator.g_mLeak2.port_p.Phi
- 
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.MovingCoilActuator.ArmatureStroke#text$pmActuator.coil:i">pmActuator.coil.i</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.MovingCoilActuator.ArmatureStroke#text$pmActuator.coil:Phi">pmActuator.coil.Phi</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.MovingCoilActuator.ArmatureStroke#text$pmActuator.g_ma.port_p:Phi">pmActuator.g_ma.port_p.Phi</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.MovingCoilActuator.ArmatureStroke#text$pmActuator.g_mLeak2.port_p:Phi">pmActuator.g_mLeak2.port_p.Phi</a>
+Finished

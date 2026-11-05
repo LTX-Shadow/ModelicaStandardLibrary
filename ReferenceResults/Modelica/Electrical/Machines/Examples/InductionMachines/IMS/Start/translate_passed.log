@@ -1,0 +1,44 @@
+Translation of <a href="Modelica://Modelica.Electrical.Machines.Examples.InductionMachines.IMS_Start">Modelica.Electrical.Machines.Examples.InductionMachines.IMS_Start</a>
+The DAE has 798 scalar unknowns and 798 scalar equations.
+
+Statistics
+
+Original Model
+  Number of components: 93
+  Variables: 1123
+  Constants: 19 (19 scalars)
+  Parameters: 395 (478 scalars)
+  Unknowns: 709 (798 scalars)
+  Differentiated variables: 26 scalars
+  Equations: 430
+  Nontrivial: 350
+Translated Model
+  Constants: 352 scalars
+  Free parameters: 56 scalars
+  Parameter depending: 231 scalars
+  Continuous time states: 8 scalars
+  Time-varying variables: 163 scalars
+  Alias variables: 493 scalars
+  Number of mixed real/discrete systems of equations: 0
+  Sizes of linear systems of equations: {3, 6, 6, 3, 6, 16, 2, 2}
+  Sizes after manipulation of the linear systems: {0, 2, 2, 0, 2, 4, 0, 2}
+  Sizes of nonlinear systems of equations: { }
+  Sizes after manipulation of the nonlinear systems: { }
+  Number of numerical Jacobians: 0
+  Initialization problem
+    Sizes of linear systems of equations: {2}
+    Sizes after manipulation of the linear systems: {2}
+
+Settings
+Advanced.StoreProtectedVariables = true
+Selected continuous time states
+Statically selected continuous time states
+<a href="Modelica://Modelica.Electrical.Machines.Examples.InductionMachines.IMS_Start#text$aims:i_0_r">aims.i_0_r</a>
+<a href="Modelica://Modelica.Electrical.Machines.Examples.InductionMachines.IMS_Start#text$aims:i_0_s">aims.i_0_s</a>
+<a href="Modelica://Modelica.Electrical.Machines.Examples.InductionMachines.IMS_Start#text$aims:idq_rr">aims.idq_rr[1]</a>
+<a href="Modelica://Modelica.Electrical.Machines.Examples.InductionMachines.IMS_Start#text$aims:idq_rr">aims.idq_rr[2]</a>
+<a href="Modelica://Modelica.Electrical.Machines.Examples.InductionMachines.IMS_Start#text$aims:idq_sr">aims.idq_sr[1]</a>
+<a href="Modelica://Modelica.Electrical.Machines.Examples.InductionMachines.IMS_Start#text$aims:idq_sr">aims.idq_sr[2]</a>
+<a href="Modelica://Modelica.Electrical.Machines.Examples.InductionMachines.IMS_Start#text$loadInertia:phi">loadInertia.phi</a>
+<a href="Modelica://Modelica.Electrical.Machines.Examples.InductionMachines.IMS_Start#text$loadInertia:w">loadInertia.w</a>
+Finished

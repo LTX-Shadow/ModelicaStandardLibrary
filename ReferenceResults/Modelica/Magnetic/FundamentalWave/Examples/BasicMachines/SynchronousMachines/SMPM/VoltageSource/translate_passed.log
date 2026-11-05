@@ -1,0 +1,42 @@
+Translation of <a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMPM_VoltageSource">Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMPM_VoltageSource</a>
+The DAE has 911 scalar unknowns and 911 scalar equations.
+
+Statistics
+
+Original Model
+  Number of components: 198
+  Variables: 1198
+  Constants: 10 (10 scalars)
+  Parameters: 362 (435 scalars)
+  Unknowns: 826 (911 scalars)
+  Differentiated variables: 21 scalars
+  Equations: 502
+  Nontrivial: 402
+Translated Model
+  Constants: 451 scalars
+  Free parameters: 35 scalars
+  Parameter depending: 164 scalars
+  Continuous time states: 6 scalars
+  Time-varying variables: 161 scalars
+  Alias variables: 545 scalars
+  Number of mixed real/discrete systems of equations: 0
+  Sizes of linear systems of equations: {10, 8, 4, 2}
+  Sizes after manipulation of the linear systems: {2, 0, 2, 0}
+  Sizes of nonlinear systems of equations: { }
+  Sizes after manipulation of the nonlinear systems: { }
+  Number of numerical Jacobians: 0
+  Initialization problem
+    Sizes of linear systems of equations: {2}
+    Sizes after manipulation of the linear systems: {2}
+
+Settings
+Advanced.StoreProtectedVariables = true
+Selected continuous time states
+Statically selected continuous time states
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMPM_VoltageSource#text$currentController.PI_d:x">currentController.PI_d.x</a>
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMPM_VoltageSource#text$currentController.PI_q:x">currentController.PI_q.x</a>
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMPM_VoltageSource#text$inertiaLoad:phi">inertiaLoad.phi</a>
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMPM_VoltageSource#text$inertiaLoad:w">inertiaLoad.w</a>
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMPM_VoltageSource#text$smpm.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter.Phi:re">smpm.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re</a>
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMPM_VoltageSource#text$smpm.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter.Phi:im">smpm.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im</a>
+Finished
