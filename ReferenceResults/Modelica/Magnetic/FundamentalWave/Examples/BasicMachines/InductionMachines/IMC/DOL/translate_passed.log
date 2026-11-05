@@ -1,0 +1,50 @@
+Translation of <a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_DOL">Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_DOL</a>
+The DAE has 1348 scalar unknowns and 1348 scalar equations.
+
+Statistics
+
+Original Model
+  Number of components: 243
+  Variables: 1764
+  Constants: 16 (16 scalars)
+  Parameters: 516 (602 scalars)
+  Unknowns: 1232 (1348 scalars)
+  Differentiated variables: 45 scalars
+  Equations: 729
+  Nontrivial: 585
+Translated Model
+  Constants: 512 scalars
+  Free parameters: 41 scalars
+  Parameter depending: 281 scalars
+  Continuous time states: 14 scalars
+  Time-varying variables: 261 scalars
+  Alias variables: 871 scalars
+  Number of mixed real/discrete systems of equations: 0
+  Sizes of linear systems of equations: {3, 14, 8, 14, 12, 4, 2, 2, 2}
+  Sizes after manipulation of the linear systems: {0, 2, 0, 4, 3, 2, 0, 0, 2}
+  Sizes of nonlinear systems of equations: { }
+  Sizes after manipulation of the nonlinear systems: { }
+  Number of numerical Jacobians: 0
+  Initialization problem
+    Sizes of linear systems of equations: {2, 2, 2, 2}
+    Sizes after manipulation of the linear systems: {0, 0, 2, 2}
+
+Settings
+Advanced.StoreProtectedVariables = true
+Selected continuous time states
+Statically selected continuous time states
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_DOL#text$aimcE:i_0_s">aimcE.i_0_s</a>
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_DOL#text$aimcE:idq_rr">aimcE.idq_rr[1]</a>
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_DOL#text$aimcE:idq_rr">aimcE.idq_rr[2]</a>
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_DOL#text$aimcE:idq_sr">aimcE.idq_sr[1]</a>
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_DOL#text$aimcE:idq_sr">aimcE.idq_sr[2]</a>
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_DOL#text$aimcM.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter.Phi:re">aimcM.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re</a>
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_DOL#text$aimcM.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter.Phi:im">aimcM.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im</a>
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_DOL#text$aimcM.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter.Phi:re">aimcM.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re</a>
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_DOL#text$aimcM.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter.Phi:im">aimcM.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im</a>
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_DOL#text$aimcM.stator.zeroInductor:i0">aimcM.stator.zeroInductor.i0</a>
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_DOL#text$loadInertiaE:phi">loadInertiaE.phi</a>
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_DOL#text$loadInertiaE:w">loadInertiaE.w</a>
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_DOL#text$loadInertiaM:phi">loadInertiaM.phi</a>
+<a href="Modelica://Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_DOL#text$loadInertiaM:w">loadInertiaM.w</a>
+Finished

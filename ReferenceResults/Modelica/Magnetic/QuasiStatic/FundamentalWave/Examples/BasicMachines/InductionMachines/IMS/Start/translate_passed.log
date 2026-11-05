@@ -1,0 +1,48 @@
+Translation of <a href="Modelica://Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMS_Start">Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMS_Start</a>
+The DAE has 5030 scalar unknowns and 5030 scalar equations.
+
+Statistics
+
+Original Model
+  Number of components: 2137
+  Variables: 5893
+  Constants: 51 (51 scalars)
+  Parameters: 1082 (1182 scalars)
+  Unknowns: 4760 (5030 scalars)
+  Differentiated variables: 61 scalars
+  Equations: 1825
+  Nontrivial: 1537
+Translated Model
+  Constants: 1988 scalars
+  Free parameters: 107 scalars
+  Parameter depending: 302 scalars
+  Outputs: 2 scalars
+  Continuous time states: 11 scalars
+  Time-varying variables: 936 scalars
+  Alias variables: 2930 scalars
+  Number of mixed real/discrete systems of equations: 0
+  Sizes of linear systems of equations: {14, 8, 112, 8, 6, 6, 6, 5, 2, 4, 2}
+  Sizes after manipulation of the linear systems: {2, 0, 18, 2, 2, 2, 2, 2, 0, 2, 0}
+  Sizes of nonlinear systems of equations: { }
+  Sizes after manipulation of the nonlinear systems: { }
+  Number of numerical Jacobians: 0
+  Initialization problem
+    Sizes of linear systems of equations: {2}
+    Sizes after manipulation of the linear systems: {2}
+
+Settings
+Advanced.StoreProtectedVariables = true
+Selected continuous time states
+Statically selected continuous time states
+<a href="Modelica://Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMS_Start#text$ims.rotor.electroMagneticConverter.singlePhaseElectroMagneticConverter.Phi:re">ims.rotor.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re</a>
+<a href="Modelica://Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMS_Start#text$ims.rotor.electroMagneticConverter.singlePhaseElectroMagneticConverter.Phi:im">ims.rotor.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im</a>
+<a href="Modelica://Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMS_Start#text$ims.rotor.zeroInductor:i0">ims.rotor.zeroInductor.i0</a>
+<a href="Modelica://Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMS_Start#text$ims.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter.Phi:re">ims.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re</a>
+<a href="Modelica://Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMS_Start#text$ims.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter.Phi:im">ims.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im</a>
+<a href="Modelica://Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMS_Start#text$ims.stator.zeroInductor:i0">ims.stator.zeroInductor.i0</a>
+<a href="Modelica://Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMS_Start#text$imsQS.rotor.electroMagneticConverter.port_p.reference:gamma">imsQS.rotor.electroMagneticConverter.port_p.reference.gamma</a>
+<a href="Modelica://Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMS_Start#text$loadInertia:phi">loadInertia.phi</a>
+<a href="Modelica://Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMS_Start#text$loadInertia:w">loadInertia.w</a>
+<a href="Modelica://Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMS_Start#text$loadInertiaQS:phi">loadInertiaQS.phi</a>
+<a href="Modelica://Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMS_Start#text$loadInertiaQS:w">loadInertiaQS.w</a>
+Finished

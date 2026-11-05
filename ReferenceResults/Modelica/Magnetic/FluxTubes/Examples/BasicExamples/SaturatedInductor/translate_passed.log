@@ -1,21 +1,20 @@
-﻿ = true
-Translation of Modelica.Magnetic.FluxTubes.Examples.BasicExamples.SaturatedInductor:
+Translation of <a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.BasicExamples.SaturatedInductor">Modelica.Magnetic.FluxTubes.Examples.BasicExamples.SaturatedInductor</a>
 The DAE has 67 scalar unknowns and 67 scalar equations.
- 
+
 Statistics
- 
+
 Original Model
   Number of components: 12
-  Variables: 104
-  Parameters: 37 (37 scalars)
+  Variables: 107
+  Parameters: 40 (40 scalars)
   Unknowns: 67 (67 scalars)
   Differentiated variables: 2 scalars
   Equations: 62
   Nontrivial: 51
 Translated Model
-  Constants: 12 scalars
+  Constants: 13 scalars
   Free parameters: 28 scalars
-  Parameter depending: 11 scalars
+  Parameter depending: 13 scalars
   Continuous time states: 1 scalars
   Time-varying variables: 23 scalars
   Alias variables: 30 scalars
@@ -29,14 +28,14 @@ Translated Model
     Sizes of nonlinear systems of equations: {8}
     Sizes after manipulation of the nonlinear systems: {1}
     Number of numerical Jacobians: 0
- 
+
 Settings
 Advanced.StoreProtectedVariables = true
 Selected continuous time states
 Dynamically selected continuous time states
 There is one set of dynamic state selection.
 There is one state to be selected from:
-  coil.i
-  coil.Phi
-  r_mLeak.port_p.Phi
- 
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.BasicExamples.SaturatedInductor#text$coil:i">coil.i</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.BasicExamples.SaturatedInductor#text$coil:Phi">coil.Phi</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.BasicExamples.SaturatedInductor#text$r_mLeak.port_p:Phi">r_mLeak.port_p.Phi</a>
+Finished

@@ -1,5 +1,5 @@
 Log-file of program ./dymosim
-(generated: Mon Oct 28 23:53:53 2024)
+(generated: Thu Oct 15 14:37:44 2026)
 
 dymosim started
 ... "Modelica.Electrical.Analog.Examples.DemonstrateLightning" simulating
@@ -10,9 +10,9 @@ Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
 
 Integration terminated successfully at T = 0.001
-   CPU-time for integration                : 0.014 seconds
-   CPU-time for one grid interval          : 0.0014 milliseconds
-   CPU-time for initialization             : 0.001 seconds
+   CPU-time for integration                : 0.0279 seconds
+   CPU-time for one grid interval          : 0.00279 milliseconds
+   CPU-time for initialization             : 0.000144 seconds
    Number of result points                 : 10003
    Number of grid points                   : 10001
    Number of accepted steps                : 143

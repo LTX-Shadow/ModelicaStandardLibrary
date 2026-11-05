@@ -1,28 +1,32 @@
 Log-file of program ./dymosim
-(generated: Tue May  5 01:10:37 2020)
+(generated: Thu Oct 15 14:39:12 2026)
 
 dymosim started
+... "Modelica.Electrical.PowerConverters.Examples.ACDC.RectifierBridge2Pulse.HalfControlledBridge2Pulse" simulating
 ... "dsin.txt" loading (dymosim input file)
-... "HalfControlledBridge2Pulse.mat" creating (simulation result file)
+... "result.mat" creating (simulation result file)
 
 Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
 Integration terminated successfully at T = 0.1
-   CPU-time for integration                : 0.025 seconds
-   CPU-time for one grid interval          : 0.025 milliseconds
-   CPU-time for initialization             : 0.001 seconds
-   Number of result points                 : 1041
-   Number of grid points                   : 1001
-   Number of accepted steps                : 1105
-   Number of f-evaluations (dynamics)      : 1935
-   Number of crossing function evaluations : 2294
-   Number of Jacobian-evaluations          : 355
+   CPU-time for integration                : 0.00542 seconds
+   CPU-time for one grid interval          : 0.0108 milliseconds
+   CPU-time for initialization             : 8.6e-05 seconds
+   Number of result points                 : 541
+   Number of grid points                   : 501
+   Number of accepted steps                : 845
+   Number of f-evaluations (dynamics)      : 1445
+   Number of crossing function evaluations : 1549
+   Number of Jacobian-evaluations          : 342
    Number of model time events             : 10
    Number of input time events             : 0
    Number of state events                  : 21
    Number of step events                   : 0
-   Minimum integration stepsize            : 1.43e-11
-   Maximum integration stepsize            : 0.00041
+   Minimum integration stepsize            : 1.43e-10
+   Maximum integration stepsize            : 0.000819
    Maximum integration order               : 5
 Calling terminal section
 ... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of Modelica.Electrical.PowerConverters.Examples.ACDC.RectifierBridge2Pulse.HalfControlledBridge2Pulse

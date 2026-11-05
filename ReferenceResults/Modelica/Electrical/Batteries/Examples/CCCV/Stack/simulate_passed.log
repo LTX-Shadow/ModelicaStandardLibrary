@@ -1,0 +1,32 @@
+Log-file of program ./dymosim
+(generated: Thu Oct 15 14:38:12 2026)
+
+dymosim started
+... "Modelica.Electrical.Batteries.Examples.CCCV_Stack" simulating
+... "dsin.txt" loading (dymosim input file)
+... "result.mat" creating (simulation result file)
+
+Integration started at T = 0 using integration method DASSL
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
+Integration terminated successfully at T = 1200
+   CPU-time for integration                : 0.0704 seconds
+   CPU-time for one grid interval          : 0.00587 milliseconds
+   CPU-time for initialization             : 0.000311 seconds
+   Number of result points                 : 12022
+   Number of grid points                   : 12001
+   Number of accepted steps                : 364
+   Number of f-evaluations (dynamics)      : 657
+   Number of crossing function evaluations : 12442
+   Number of Jacobian-evaluations          : 160
+   Number of model time events             : 0
+   Number of input time events             : 0
+   Number of state events                  : 11
+   Number of step events                   : 0
+   Minimum integration stepsize            : 9.27e-06
+   Maximum integration stepsize            : 28.9
+   Maximum integration order               : 5
+Calling terminal section
+... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of Modelica.Electrical.Batteries.Examples.CCCV_Stack

@@ -1,19 +1,18 @@
-﻿ = true
-Translation of Modelica.Electrical.Analog.Examples.ResonanceCircuits:
+Translation of <a href="Modelica://Modelica.Electrical.Analog.Examples.ResonanceCircuits">Modelica.Electrical.Analog.Examples.ResonanceCircuits</a>
 The DAE has 252 scalar unknowns and 252 scalar equations.
- 
+
 Statistics
- 
+
 Original Model
   Number of components: 31
-  Variables: 411
-  Parameters: 159 (159 scalars)
+  Variables: 413
+  Parameters: 161 (161 scalars)
   Unknowns: 252 (252 scalars)
   Differentiated variables: 10 scalars
   Equations: 254
   Nontrivial: 194
 Translated Model
-  Constants: 190 scalars
+  Constants: 192 scalars
   Free parameters: 17 scalars
   Parameter depending: 22 scalars
   Continuous time states: 4 scalars
@@ -25,13 +24,13 @@ Translated Model
   Sizes of nonlinear systems of equations: { }
   Sizes after manipulation of the nonlinear systems: { }
   Number of numerical Jacobians: 0
- 
+
 Settings
 Advanced.StoreProtectedVariables = true
 Selected continuous time states
 Statically selected continuous time states
-  capacitor1.v
-  capacitor2.v
-  inductor2.i
-  voltageToCurrentAdaptor1c.y
- 
+<a href="Modelica://Modelica.Electrical.Analog.Examples.ResonanceCircuits#text$capacitor1:v">capacitor1.v</a>
+<a href="Modelica://Modelica.Electrical.Analog.Examples.ResonanceCircuits#text$capacitor2:v">capacitor2.v</a>
+<a href="Modelica://Modelica.Electrical.Analog.Examples.ResonanceCircuits#text$inductor2:i">inductor2.i</a>
+<a href="Modelica://Modelica.Electrical.Analog.Examples.ResonanceCircuits#text$voltageToCurrentAdaptor1c:y">voltageToCurrentAdaptor1c.y</a>
+Finished

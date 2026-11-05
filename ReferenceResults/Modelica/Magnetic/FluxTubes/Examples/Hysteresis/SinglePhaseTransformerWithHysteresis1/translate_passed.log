@@ -1,22 +1,21 @@
-﻿ = true
-Translation of Modelica.Magnetic.FluxTubes.Examples.Hysteresis.SinglePhaseTransformerWithHysteresis1:
+Translation of <a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.SinglePhaseTransformerWithHysteresis1">Modelica.Magnetic.FluxTubes.Examples.Hysteresis.SinglePhaseTransformerWithHysteresis1</a>
 The DAE has 89 scalar unknowns and 89 scalar equations.
- 
+
 Statistics
- 
+
 Original Model
   Number of components: 16
-  Variables: 163
+  Variables: 170
   Constants: 3 (3 scalars)
-  Parameters: 71 (875 scalars)
+  Parameters: 78 (882 scalars)
   Unknowns: 89 (89 scalars)
   Differentiated variables: 9 scalars
   Equations: 86
   Nontrivial: 74
 Translated Model
-  Constants: 37 scalars
-  Free parameters: 430 scalars
-  Parameter depending: 426 scalars
+  Constants: 34 scalars
+  Free parameters: 432 scalars
+  Parameter depending: 434 scalars
   Continuous time states: 5 scalars
   Time-varying variables: 36 scalars
   Alias variables: 38 scalars
@@ -26,14 +25,14 @@ Translated Model
   Sizes of nonlinear systems of equations: { }
   Sizes after manipulation of the nonlinear systems: { }
   Number of numerical Jacobians: 0
- 
+
 Settings
 Advanced.StoreProtectedVariables = true
 Selected continuous time states
 Statically selected continuous time states
-  core.B
-  core.Hstat
-  core.MagRel
-  winding1.i
-  winding2.i
- 
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.SinglePhaseTransformerWithHysteresis1#text$core:B">core.B</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.SinglePhaseTransformerWithHysteresis1#text$core:Hstat">core.Hstat</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.SinglePhaseTransformerWithHysteresis1#text$core:MagRel">core.MagRel</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.SinglePhaseTransformerWithHysteresis1#text$winding1:i">winding1.i</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.SinglePhaseTransformerWithHysteresis1#text$winding2:i">winding2.i</a>
+Finished

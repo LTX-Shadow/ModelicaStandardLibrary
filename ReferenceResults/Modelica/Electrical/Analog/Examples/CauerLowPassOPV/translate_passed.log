@@ -1,9 +1,8 @@
-﻿ = true
-Translation of Modelica.Electrical.Analog.Examples.CauerLowPassOPV:
+Translation of <a href="Modelica://Modelica.Electrical.Analog.Examples.CauerLowPassOPV">Modelica.Electrical.Analog.Examples.CauerLowPassOPV</a>
 The DAE has 240 scalar unknowns and 240 scalar equations.
- 
+
 Statistics
- 
+
 Original Model
   Number of components: 34
   Variables: 317
@@ -25,14 +24,14 @@ Translated Model
   Sizes of nonlinear systems of equations: { }
   Sizes after manipulation of the nonlinear systems: { }
   Number of numerical Jacobians: 0
- 
+
 Settings
 Advanced.StoreProtectedVariables = true
 Selected continuous time states
 Statically selected continuous time states
-  C1.v
-  C2.v
-  C3.v
-  C4.v
-  C7.v
- 
+<a href="Modelica://Modelica.Electrical.Analog.Examples.CauerLowPassOPV#text$C1:v">C1.v</a>
+<a href="Modelica://Modelica.Electrical.Analog.Examples.CauerLowPassOPV#text$C2:v">C2.v</a>
+<a href="Modelica://Modelica.Electrical.Analog.Examples.CauerLowPassOPV#text$C3:v">C3.v</a>
+<a href="Modelica://Modelica.Electrical.Analog.Examples.CauerLowPassOPV#text$C4:v">C4.v</a>
+<a href="Modelica://Modelica.Electrical.Analog.Examples.CauerLowPassOPV#text$C7:v">C7.v</a>
+Finished

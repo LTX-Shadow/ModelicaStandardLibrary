@@ -1,28 +1,32 @@
 Log-file of program ./dymosim
-(generated: Tue May  5 00:42:12 2020)
+(generated: Thu Oct 15 14:37:24 2026)
 
 dymosim started
+... "Modelica.Electrical.Analog.Examples.ChuaCircuit" simulating
 ... "dsin.txt" loading (dymosim input file)
-... "ChuaCircuit.mat" creating (simulation result file)
+... "result.mat" creating (simulation result file)
 
 Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
 Integration terminated successfully at T = 50000
-   CPU-time for integration                : 1.3 seconds
-   CPU-time for one grid interval          : 0.013 milliseconds
-   CPU-time for initialization             : 0 seconds
-   Number of result points                 : 100206
-   Number of grid points                   : 100001
-   Number of accepted steps                : 11544
-   Number of f-evaluations (dynamics)      : 21871
-   Number of crossing function evaluations : 112250
-   Number of Jacobian-evaluations          : 1629
+   CPU-time for integration                : 0.176 seconds
+   CPU-time for one grid interval          : 0.00353 milliseconds
+   CPU-time for initialization             : 5.5e-05 seconds
+   Number of result points                 : 50214
+   Number of grid points                   : 50001
+   Number of accepted steps                : 11677
+   Number of f-evaluations (dynamics)      : 22108
+   Number of crossing function evaluations : 62437
+   Number of Jacobian-evaluations          : 1684
    Number of model time events             : 0
    Number of input time events             : 0
-   Number of state events                  : 102
+   Number of state events                  : 106
    Number of step events                   : 0
-   Minimum integration stepsize            : 1.85e-07
-   Maximum integration stepsize            : 8.41
+   Minimum integration stepsize            : 9.24e-06
+   Maximum integration stepsize            : 8.54
    Maximum integration order               : 5
 Calling terminal section
 ... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of Modelica.Electrical.Analog.Examples.ChuaCircuit

@@ -1,34 +1,33 @@
-﻿ = true
-Translation of Modelica.Electrical.Analog.Examples.OpAmps.LowPass:
-The DAE has 68 scalar unknowns and 68 scalar equations.
- 
+Translation of <a href="Modelica://Modelica.Electrical.Analog.Examples.OpAmps.LowPass">Modelica.Electrical.Analog.Examples.OpAmps.LowPass</a>
+The DAE has 71 scalar unknowns and 71 scalar equations.
+
 Statistics
- 
+
 Original Model
   Number of components: 10
-  Variables: 115
-  Parameters: 47 (47 scalars)
-  Unknowns: 68 (68 scalars)
+  Variables: 119
+  Parameters: 48 (48 scalars)
+  Unknowns: 71 (71 scalars)
   Differentiated variables: 1 scalars
-  Equations: 60
-  Nontrivial: 46
+  Equations: 64
+  Nontrivial: 49
 Translated Model
   Constants: 21 scalars
   Free parameters: 13 scalars
   Parameter depending: 31 scalars
   Continuous time states: 1 scalars
-  Time-varying variables: 17 scalars
-  Alias variables: 33 scalars
+  Time-varying variables: 20 scalars
+  Alias variables: 34 scalars
   Number of mixed real/discrete systems of equations: 0
   Sizes of linear systems of equations: { }
   Sizes after manipulation of the linear systems: { }
-  Sizes of nonlinear systems of equations: {2}
+  Sizes of nonlinear systems of equations: {3}
   Sizes after manipulation of the nonlinear systems: {1}
   Number of numerical Jacobians: 0
- 
+
 Settings
 Advanced.StoreProtectedVariables = true
 Selected continuous time states
 Statically selected continuous time states
-  firstOrder.c.v
- 
+<a href="Modelica://Modelica.Electrical.Analog.Examples.OpAmps.LowPass#text$firstOrder.c:v">firstOrder.c.v</a>
+Finished

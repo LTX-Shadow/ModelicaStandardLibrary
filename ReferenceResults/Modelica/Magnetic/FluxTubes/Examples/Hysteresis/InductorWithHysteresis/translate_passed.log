@@ -1,20 +1,19 @@
-﻿ = true
-Translation of Modelica.Magnetic.FluxTubes.Examples.Hysteresis.InductorWithHysteresis:
+Translation of <a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.InductorWithHysteresis">Modelica.Magnetic.FluxTubes.Examples.Hysteresis.InductorWithHysteresis</a>
 The DAE has 63 scalar unknowns and 63 scalar equations.
- 
+
 Statistics
- 
+
 Original Model
   Number of components: 9
-  Variables: 108
+  Variables: 109
   Constants: 2 (2 scalars)
-  Parameters: 43 (43 scalars)
+  Parameters: 44 (44 scalars)
   Unknowns: 63 (63 scalars)
   Differentiated variables: 7 scalars
   Equations: 58
   Nontrivial: 50
 Translated Model
-  Constants: 15 scalars
+  Constants: 16 scalars
   Free parameters: 24 scalars
   Parameter depending: 16 scalars
   Continuous time states: 4 scalars
@@ -26,13 +25,13 @@ Translated Model
   Sizes of nonlinear systems of equations: { }
   Sizes after manipulation of the nonlinear systems: { }
   Number of numerical Jacobians: 0
- 
+
 Settings
 Advanced.StoreProtectedVariables = true
 Selected continuous time states
 Statically selected continuous time states
-  core.B
-  core.Hstat
-  core.MagRel
-  winding.i
- 
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.InductorWithHysteresis#text$core:B">core.B</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.InductorWithHysteresis#text$core:Hstat">core.Hstat</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.InductorWithHysteresis#text$core:MagRel">core.MagRel</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.InductorWithHysteresis#text$winding:i">winding.i</a>
+Finished

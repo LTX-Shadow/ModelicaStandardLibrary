@@ -1,38 +1,37 @@
-﻿ = true
-Translation of Modelica.Electrical.Machines.Examples.Transformers.Rectifier6pulse:
-The DAE has 579 scalar unknowns and 579 scalar equations.
- 
+Translation of <a href="Modelica://Modelica.Electrical.Machines.Examples.Transformers.Rectifier6pulse">Modelica.Electrical.Machines.Examples.Transformers.Rectifier6pulse</a>
+The DAE has 585 scalar unknowns and 585 scalar equations.
+
 Statistics
- 
+
 Original Model
   Number of components: 59
-  Variables: 776
+  Variables: 781
   Constants: 17 (17 scalars)
-  Parameters: 232 (278 scalars)
-  Unknowns: 527 (579 scalars)
+  Parameters: 235 (281 scalars)
+  Unknowns: 529 (585 scalars)
   Differentiated variables: 8 scalars
-  Equations: 292
+  Equations: 294
   Nontrivial: 242
 Translated Model
-  Constants: 144 scalars
+  Constants: 147 scalars
   Free parameters: 48 scalars
   Parameter depending: 143 scalars
   Continuous time states: 4 scalars
   Time-varying variables: 125 scalars
-  Alias variables: 414 scalars
+  Alias variables: 420 scalars
   Number of mixed real/discrete systems of equations: 3
   Sizes of linear systems of equations: {6, 6, 6, 21}
   Sizes after manipulation of the linear systems: {2, 2, 2, 6}
   Sizes of nonlinear systems of equations: { }
   Sizes after manipulation of the nonlinear systems: { }
   Number of numerical Jacobians: 0
- 
+
 Settings
 Advanced.StoreProtectedVariables = true
 Selected continuous time states
 Statically selected continuous time states
-  cDC1.v
-  cDC2.v
-  transformer1.l2sigma.inductor[1].i
-  transformer1.l2sigma.inductor[3].i
- 
+<a href="Modelica://Modelica.Electrical.Machines.Examples.Transformers.Rectifier6pulse#text$cDC1:v">cDC1.v</a>
+<a href="Modelica://Modelica.Electrical.Machines.Examples.Transformers.Rectifier6pulse#text$cDC2:v">cDC2.v</a>
+<a href="Modelica://Modelica.Electrical.Machines.Examples.Transformers.Rectifier6pulse#text$transformer1.l2sigma.inductor:i">transformer1.l2sigma.inductor[1].i</a>
+<a href="Modelica://Modelica.Electrical.Machines.Examples.Transformers.Rectifier6pulse#text$transformer1.l2sigma.inductor:i">transformer1.l2sigma.inductor[3].i</a>
+Finished

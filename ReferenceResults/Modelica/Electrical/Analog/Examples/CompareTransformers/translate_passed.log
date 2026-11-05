@@ -1,19 +1,18 @@
-﻿ = true
-Translation of Modelica.Electrical.Analog.Examples.CompareTransformers:
+Translation of <a href="Modelica://Modelica.Electrical.Analog.Examples.CompareTransformers">Modelica.Electrical.Analog.Examples.CompareTransformers</a>
 The DAE has 123 scalar unknowns and 123 scalar equations.
- 
+
 Statistics
- 
+
 Original Model
   Number of components: 19
-  Variables: 195
-  Parameters: 72 (72 scalars)
+  Variables: 197
+  Parameters: 74 (74 scalars)
   Unknowns: 123 (123 scalars)
   Differentiated variables: 4 scalars
   Equations: 114
   Nontrivial: 86
 Translated Model
-  Constants: 25 scalars
+  Constants: 27 scalars
   Free parameters: 20 scalars
   Parameter depending: 51 scalars
   Outputs: 8 scalars
@@ -26,12 +25,12 @@ Translated Model
   Sizes of nonlinear systems of equations: { }
   Sizes after manipulation of the nonlinear systems: { }
   Number of numerical Jacobians: 0
- 
+
 Settings
 Advanced.StoreProtectedVariables = true
 Selected continuous time states
 Statically selected continuous time states
-  basicTransformer.i1
-  basicTransformer.i2
-  inductor22.i
- 
+<a href="Modelica://Modelica.Electrical.Analog.Examples.CompareTransformers#text$basicTransformer:i1">basicTransformer.i1</a>
+<a href="Modelica://Modelica.Electrical.Analog.Examples.CompareTransformers#text$basicTransformer:i2">basicTransformer.i2</a>
+<a href="Modelica://Modelica.Electrical.Analog.Examples.CompareTransformers#text$inductor22:i">inductor22.i</a>
+Finished

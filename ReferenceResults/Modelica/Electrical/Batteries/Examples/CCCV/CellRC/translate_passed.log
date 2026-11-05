@@ -1,0 +1,38 @@
+Translation of <a href="Modelica://Modelica.Electrical.Batteries.Examples.CCCV_CellRC">Modelica.Electrical.Batteries.Examples.CCCV_CellRC</a>
+The DAE has 154 scalar unknowns and 154 scalar equations.
+
+Statistics
+
+Original Model
+  Number of components: 33
+  Variables: 309
+  Constants: 9 (9 scalars)
+  Parameters: 146 (545 scalars)
+  Unknowns: 154 (154 scalars)
+  Differentiated variables: 5 scalars
+  Equations: 150
+  Nontrivial: 118
+Translated Model
+  Constants: 64 scalars
+  Free parameters: 85 scalars
+  Parameter depending: 430 scalars
+  Continuous time states: 5 scalars
+  Time-varying variables: 33 scalars
+  Alias variables: 96 scalars
+  Number of mixed real/discrete systems of equations: 1
+  Sizes of linear systems of equations: {5}
+  Sizes after manipulation of the linear systems: {0}
+  Sizes of nonlinear systems of equations: { }
+  Sizes after manipulation of the nonlinear systems: { }
+  Number of numerical Jacobians: 0
+
+Settings
+Advanced.StoreProtectedVariables = true
+Selected continuous time states
+Statically selected continuous time states
+<a href="Modelica://Modelica.Electrical.Batteries.Examples.CCCV_CellRC#text$cell.cell.capacitor:v">cell.cell.capacitor[1].v</a>
+<a href="Modelica://Modelica.Electrical.Batteries.Examples.CCCV_CellRC#text$cell.cell.capacitor:v">cell.cell.capacitor[2].v</a>
+<a href="Modelica://Modelica.Electrical.Batteries.Examples.CCCV_CellRC#diagram$cell.cell:limIntegrator.y">cell.cell.limIntegrator.y</a>
+<a href="Modelica://Modelica.Electrical.Batteries.Examples.CCCV_CellRC#diagram$cell:limIntegrator.y">cell.limIntegrator.y</a>
+<a href="Modelica://Modelica.Electrical.Batteries.Examples.CCCV_CellRC#diagram$:energy.y">energy.y</a>
+Finished

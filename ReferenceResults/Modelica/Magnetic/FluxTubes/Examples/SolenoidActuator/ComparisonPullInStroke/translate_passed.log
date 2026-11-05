@@ -1,23 +1,22 @@
-﻿ = true
-Translation of Modelica.Magnetic.FluxTubes.Examples.SolenoidActuator.ComparisonPullInStroke:
-The DAE has 528 scalar unknowns and 528 scalar equations.
- 
+Translation of <a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.SolenoidActuator.ComparisonPullInStroke">Modelica.Magnetic.FluxTubes.Examples.SolenoidActuator.ComparisonPullInStroke</a>
+The DAE has 532 scalar unknowns and 532 scalar equations.
+
 Statistics
- 
+
 Original Model
   Number of components: 76
-  Variables: 861
-  Parameters: 335 (2458 scalars)
-  Unknowns: 526 (528 scalars)
+  Variables: 906
+  Parameters: 376 (2499 scalars)
+  Unknowns: 530 (532 scalars)
   Differentiated variables: 26 scalars
-  Equations: 484
-  Nontrivial: 417
+  Equations: 488
+  Nontrivial: 421
 Translated Model
-  Constants: 114 scalars
-  Free parameters: 2217 scalars
-  Parameter depending: 195 scalars
+  Constants: 112 scalars
+  Free parameters: 2236 scalars
+  Parameter depending: 219 scalars
   Continuous time states: 9 scalars
-  Time-varying variables: 233 scalars
+  Time-varying variables: 237 scalars
   Alias variables: 227 scalars
   Number of mixed real/discrete systems of equations: 0
   Sizes of linear systems of equations: {4, 3, 4, 5, 3, 3, 3}
@@ -29,35 +28,33 @@ Translated Model
     Sizes of nonlinear systems of equations: {45, 57}
     Sizes after manipulation of the nonlinear systems: {4, 7}
     Number of numerical Jacobians: 0
- 
+
 Settings
 Advanced.StoreProtectedVariables = true
 Selected continuous time states
 Statically selected continuous time states
-  advancedSolenoid.armature.stopper_xMax.v_rel
-  advancedSolenoid.c_par1.v
-  advancedSolenoid.c_par2.v
-  advancedSolenoid.x
-  simpleSolenoid.armature.stopper_xMax.v_rel
-  simpleSolenoid.x
- 
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.SolenoidActuator.ComparisonPullInStroke#text$advancedSolenoid.armature.stopper_xMax:v_rel">advancedSolenoid.armature.stopper_xMax.v_rel</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.SolenoidActuator.ComparisonPullInStroke#text$advancedSolenoid.c_par1:v">advancedSolenoid.c_par1.v</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.SolenoidActuator.ComparisonPullInStroke#text$advancedSolenoid.c_par2:v">advancedSolenoid.c_par2.v</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.SolenoidActuator.ComparisonPullInStroke#text$advancedSolenoid:x">advancedSolenoid.x</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.SolenoidActuator.ComparisonPullInStroke#text$simpleSolenoid.armature.stopper_xMax:v_rel">simpleSolenoid.armature.stopper_xMax.v_rel</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.SolenoidActuator.ComparisonPullInStroke#text$simpleSolenoid:x">simpleSolenoid.x</a>
 Dynamically selected continuous time states
 There are 2 sets of dynamic state selection.
 From set 1 there is 1 state to be selected from:
-  simpleSolenoid.coil.i
-  simpleSolenoid.coil.Phi
-  simpleSolenoid.g_mLeak1.port_p.Phi
-  simpleSolenoid.g_mLeak2.port_p.Phi
-  simpleSolenoid.g_mLeakWork.port_p.Phi
- 
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.SolenoidActuator.ComparisonPullInStroke#text$simpleSolenoid.coil:i">simpleSolenoid.coil.i</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.SolenoidActuator.ComparisonPullInStroke#text$simpleSolenoid.coil:Phi">simpleSolenoid.coil.Phi</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.SolenoidActuator.ComparisonPullInStroke#text$simpleSolenoid.g_mLeak1.port_p:Phi">simpleSolenoid.g_mLeak1.port_p.Phi</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.SolenoidActuator.ComparisonPullInStroke#text$simpleSolenoid.g_mLeak2.port_p:Phi">simpleSolenoid.g_mLeak2.port_p.Phi</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.SolenoidActuator.ComparisonPullInStroke#text$simpleSolenoid.g_mLeakWork.port_p:Phi">simpleSolenoid.g_mLeakWork.port_p.Phi</a>
 From set 2 there are 2 states to be selected from:
-  advancedSolenoid.coil1.i
-  advancedSolenoid.coil1.Phi
-  advancedSolenoid.coil2.i
-  advancedSolenoid.coil2.Phi
-  advancedSolenoid.g_mAirPar.port_p.Phi
-  advancedSolenoid.g_mLeak1.port_p.Phi
-  advancedSolenoid.g_mLeak2.port_p.Phi
-  advancedSolenoid.g_mLeak3.port_p.Phi
-  advancedSolenoid.g_mLeakWork.port_p.Phi
- 
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.SolenoidActuator.ComparisonPullInStroke#text$advancedSolenoid.coil1:i">advancedSolenoid.coil1.i</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.SolenoidActuator.ComparisonPullInStroke#text$advancedSolenoid.coil1:Phi">advancedSolenoid.coil1.Phi</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.SolenoidActuator.ComparisonPullInStroke#text$advancedSolenoid.coil2:i">advancedSolenoid.coil2.i</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.SolenoidActuator.ComparisonPullInStroke#text$advancedSolenoid.coil2:Phi">advancedSolenoid.coil2.Phi</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.SolenoidActuator.ComparisonPullInStroke#text$advancedSolenoid.g_mAirPar.port_p:Phi">advancedSolenoid.g_mAirPar.port_p.Phi</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.SolenoidActuator.ComparisonPullInStroke#text$advancedSolenoid.g_mLeak1.port_p:Phi">advancedSolenoid.g_mLeak1.port_p.Phi</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.SolenoidActuator.ComparisonPullInStroke#text$advancedSolenoid.g_mLeak2.port_p:Phi">advancedSolenoid.g_mLeak2.port_p.Phi</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.SolenoidActuator.ComparisonPullInStroke#text$advancedSolenoid.g_mLeak3.port_p:Phi">advancedSolenoid.g_mLeak3.port_p.Phi</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.SolenoidActuator.ComparisonPullInStroke#text$advancedSolenoid.g_mLeakWork.port_p:Phi">advancedSolenoid.g_mLeakWork.port_p.Phi</a>
+Finished

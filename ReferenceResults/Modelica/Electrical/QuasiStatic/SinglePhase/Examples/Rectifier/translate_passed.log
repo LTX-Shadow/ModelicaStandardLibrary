@@ -1,22 +1,21 @@
-﻿ = true
-Translation of Modelica.Electrical.QuasiStatic.SinglePhase.Examples.Rectifier:
+Translation of <a href="Modelica://Modelica.Electrical.QuasiStatic.SinglePhase.Examples.Rectifier">Modelica.Electrical.QuasiStatic.SinglePhase.Examples.Rectifier</a>
 The DAE has 251 scalar unknowns and 251 scalar equations.
- 
+
 Statistics
- 
+
 Original Model
   Number of components: 71
-  Variables: 351
+  Variables: 360
   Constants: 8 (8 scalars)
-  Parameters: 95 (95 scalars)
+  Parameters: 104 (104 scalars)
   Unknowns: 248 (251 scalars)
   Differentiated variables: 6 scalars
   Equations: 213
   Nontrivial: 178
 Translated Model
-  Constants: 49 scalars
-  Free parameters: 52 scalars
-  Parameter depending: 29 scalars
+  Constants: 52 scalars
+  Free parameters: 55 scalars
+  Parameter depending: 32 scalars
   Outputs: 2 scalars
   Continuous time states: 4 scalars
   Time-varying variables: 81 scalars
@@ -27,13 +26,13 @@ Translated Model
   Sizes of nonlinear systems of equations: {9}
   Sizes after manipulation of the nonlinear systems: {2}
   Number of numerical Jacobians: 0
- 
+
 Settings
 Advanced.StoreProtectedVariables = true
 Selected continuous time states
 Statically selected continuous time states
-  iAC.mean1.x
-  iAC.mean2.x
-  iDC2.mean.x
-  voltageQS.pin_p.reference.gamma
- 
+<a href="Modelica://Modelica.Electrical.QuasiStatic.SinglePhase.Examples.Rectifier#text$iAC.mean1:x">iAC.mean1.x</a>
+<a href="Modelica://Modelica.Electrical.QuasiStatic.SinglePhase.Examples.Rectifier#text$iAC.mean2:x">iAC.mean2.x</a>
+<a href="Modelica://Modelica.Electrical.QuasiStatic.SinglePhase.Examples.Rectifier#text$iDC2.mean:x">iDC2.mean.x</a>
+<a href="Modelica://Modelica.Electrical.QuasiStatic.SinglePhase.Examples.Rectifier#text$voltageQS.pin_p.reference:gamma">voltageQS.pin_p.reference.gamma</a>
+Finished

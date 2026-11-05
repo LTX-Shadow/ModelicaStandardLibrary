@@ -1,0 +1,32 @@
+Log-file of program ./dymosim
+(generated: Thu Oct 15 14:38:19 2026)
+
+dymosim started
+... "Modelica.Electrical.Machines.Examples.InductionMachines.IMS_Start" simulating
+... "dsin.txt" loading (dymosim input file)
+... "result.mat" creating (simulation result file)
+
+Integration started at T = 0 using integration method DASSL
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
+Integration terminated successfully at T = 1.5
+   CPU-time for integration                : 0.133 seconds
+   CPU-time for one grid interval          : 0.00889 milliseconds
+   CPU-time for initialization             : 0.000203 seconds
+   Number of result points                 : 15004
+   Number of grid points                   : 15001
+   Number of accepted steps                : 1934
+   Number of f-evaluations (dynamics)      : 3969
+   Number of crossing function evaluations : 16934
+   Number of Jacobian-evaluations          : 149
+   Number of model time events             : 2
+   Number of input time events             : 0
+   Number of state events                  : 0
+   Number of step events                   : 0
+   Minimum integration stepsize            : 4.58e-12
+   Maximum integration stepsize            : 0.0041
+   Maximum integration order               : 5
+Calling terminal section
+... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of Modelica.Electrical.Machines.Examples.InductionMachines.IMS_Start

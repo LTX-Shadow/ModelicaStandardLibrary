@@ -1,20 +1,19 @@
-﻿ = true
-Translation of Modelica.Magnetic.FluxTubes.Examples.Hysteresis.SinglePhaseTransformerWithHysteresis2:
+Translation of <a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.SinglePhaseTransformerWithHysteresis2">Modelica.Magnetic.FluxTubes.Examples.Hysteresis.SinglePhaseTransformerWithHysteresis2</a>
 The DAE has 138 scalar unknowns and 138 scalar equations.
- 
+
 Statistics
- 
+
 Original Model
   Number of components: 17
-  Variables: 244
+  Variables: 245
   Constants: 3 (3 scalars)
-  Parameters: 103 (103 scalars)
+  Parameters: 104 (104 scalars)
   Unknowns: 138 (138 scalars)
   Differentiated variables: 9 scalars
   Equations: 128
   Nontrivial: 101
 Translated Model
-  Constants: 34 scalars
+  Constants: 35 scalars
   Free parameters: 42 scalars
   Parameter depending: 53 scalars
   Continuous time states: 4 scalars
@@ -29,18 +28,17 @@ Translated Model
   Initialization problem
     Sizes of linear systems of equations: {3}
     Sizes after manipulation of the linear systems: {0}
- 
+
 Settings
 Advanced.StoreProtectedVariables = true
 Selected continuous time states
 Statically selected continuous time states
-  transformer.core.B
-  transformer.core.MagRel
- 
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.SinglePhaseTransformerWithHysteresis2#text$transformer.core:B">transformer.core.B</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.SinglePhaseTransformerWithHysteresis2#text$transformer.core:MagRel">transformer.core.MagRel</a>
 Dynamically selected continuous time states
 There is one set of dynamic state selection.
 There are 2 states to be selected from:
-  transformer.core.Hstat
-  transformer.winding1.i
-  transformer.winding2.i
- 
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.SinglePhaseTransformerWithHysteresis2#text$transformer.core:Hstat">transformer.core.Hstat</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.SinglePhaseTransformerWithHysteresis2#text$transformer.winding1:i">transformer.winding1.i</a>
+<a href="Modelica://Modelica.Magnetic.FluxTubes.Examples.Hysteresis.SinglePhaseTransformerWithHysteresis2#text$transformer.winding2:i">transformer.winding2.i</a>
+Finished

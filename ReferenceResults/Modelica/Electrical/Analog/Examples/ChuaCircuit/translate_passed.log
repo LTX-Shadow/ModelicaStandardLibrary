@@ -1,9 +1,8 @@
-﻿ = true
-Translation of Modelica.Electrical.Analog.Examples.ChuaCircuit:
+Translation of <a href="Modelica://Modelica.Electrical.Analog.Examples.ChuaCircuit">Modelica.Electrical.Analog.Examples.ChuaCircuit</a>
 The DAE has 44 scalar unknowns and 44 scalar equations.
- 
+
 Statistics
- 
+
 Original Model
   Number of components: 8
   Variables: 60
@@ -25,12 +24,12 @@ Translated Model
   Sizes of nonlinear systems of equations: { }
   Sizes after manipulation of the nonlinear systems: { }
   Number of numerical Jacobians: 0
- 
+
 Settings
 Advanced.StoreProtectedVariables = true
 Selected continuous time states
 Statically selected continuous time states
-  C1.v
-  C2.v
-  L.i
- 
+<a href="Modelica://Modelica.Electrical.Analog.Examples.ChuaCircuit#text$C1:v">C1.v</a>
+<a href="Modelica://Modelica.Electrical.Analog.Examples.ChuaCircuit#text$C2:v">C2.v</a>
+<a href="Modelica://Modelica.Electrical.Analog.Examples.ChuaCircuit#text$L:i">L.i</a>
+Finished

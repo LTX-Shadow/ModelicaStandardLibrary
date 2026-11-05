@@ -1,22 +1,21 @@
-﻿ = true
-Translation of Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier:
+Translation of <a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier">Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier</a>
 The DAE has 1254 scalar unknowns and 1254 scalar equations.
- 
+
 Statistics
- 
+
 Original Model
   Number of components: 243
-  Variables: 1999
+  Variables: 2123
   Constants: 24 (24 scalars)
-  Parameters: 830 (891 scalars)
+  Parameters: 954 (1015 scalars)
   Unknowns: 1145 (1254 scalars)
   Differentiated variables: 50 scalars
   Equations: 840
   Nontrivial: 734
 Translated Model
-  Constants: 426 scalars
-  Free parameters: 255 scalars
-  Parameter depending: 320 scalars
+  Constants: 468 scalars
+  Free parameters: 301 scalars
+  Parameter depending: 356 scalars
   Continuous time states: 50 scalars
   Time-varying variables: 321 scalars
   Alias variables: 847 scalars
@@ -26,59 +25,59 @@ Translated Model
   Sizes of nonlinear systems of equations: { }
   Sizes after manipulation of the nonlinear systems: { }
   Number of numerical Jacobians: 0
- 
+
 Settings
 Advanced.StoreProtectedVariables = true
 Selected continuous time states
 Statically selected continuous time states
-  analysatorAC.iH1[1].mean1.x
-  analysatorAC.iH1[1].mean2.x
-  analysatorAC.iH1[2].mean1.x
-  analysatorAC.iH1[2].mean2.x
-  analysatorAC.iH1[3].mean1.x
-  analysatorAC.iH1[3].mean2.x
-  analysatorAC.iH1[4].mean1.x
-  analysatorAC.iH1[4].mean2.x
-  analysatorAC.iH1[5].mean1.x
-  analysatorAC.iH1[5].mean2.x
-  analysatorAC.iH1[6].mean1.x
-  analysatorAC.iH1[6].mean2.x
-  analysatorAC.powerTotal.x
-  analysatorAC.vH1[1].mean1.x
-  analysatorAC.vH1[1].mean2.x
-  analysatorAC.vH1[2].mean1.x
-  analysatorAC.vH1[2].mean2.x
-  analysatorAC.vH1[3].mean1.x
-  analysatorAC.vH1[3].mean2.x
-  analysatorAC.vH1[4].mean1.x
-  analysatorAC.vH1[4].mean2.x
-  analysatorAC.vH1[5].mean1.x
-  analysatorAC.vH1[5].mean2.x
-  analysatorAC.vH1[6].mean1.x
-  analysatorAC.vH1[6].mean2.x
-  analysatorAC.voltageLine2Line[1].mean1.x
-  analysatorAC.voltageLine2Line[1].mean2.x
-  analysatorAC.voltageLine2Line[2].mean1.x
-  analysatorAC.voltageLine2Line[2].mean2.x
-  analysatorAC.voltageLine2Line[3].mean1.x
-  analysatorAC.voltageLine2Line[3].mean2.x
-  analysatorAC.voltageLine2Line[4].mean1.x
-  analysatorAC.voltageLine2Line[4].mean2.x
-  analysatorAC.voltageLine2Line[5].mean1.x
-  analysatorAC.voltageLine2Line[5].mean2.x
-  analysatorAC.voltageLine2Line[6].mean1.x
-  analysatorAC.voltageLine2Line[6].mean2.x
-  analysatorDC[1].meanCurrent.x
-  analysatorDC[1].meanVoltage.x
-  analysatorDC[1].powerTotal.x
-  analysatorDC[2].meanCurrent.x
-  analysatorDC[2].meanVoltage.x
-  analysatorDC[2].powerTotal.x
-  analysatorDCload.meanCurrent.x
-  analysatorDCload.meanVoltage.x
-  analysatorDCload.powerTotal.x
-  inductorDC1[1].i
-  inductorDC1[2].i
-  inductorDC2[1].i
-  inductorDC2[2].i
- 
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.iH1.mean1:x">analysatorAC.iH1[1].mean1.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.iH1.mean2:x">analysatorAC.iH1[1].mean2.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.iH1.mean1:x">analysatorAC.iH1[2].mean1.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.iH1.mean2:x">analysatorAC.iH1[2].mean2.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.iH1.mean1:x">analysatorAC.iH1[3].mean1.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.iH1.mean2:x">analysatorAC.iH1[3].mean2.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.iH1.mean1:x">analysatorAC.iH1[4].mean1.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.iH1.mean2:x">analysatorAC.iH1[4].mean2.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.iH1.mean1:x">analysatorAC.iH1[5].mean1.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.iH1.mean2:x">analysatorAC.iH1[5].mean2.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.iH1.mean1:x">analysatorAC.iH1[6].mean1.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.iH1.mean2:x">analysatorAC.iH1[6].mean2.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.powerTotal:x">analysatorAC.powerTotal.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.vH1.mean1:x">analysatorAC.vH1[1].mean1.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.vH1.mean2:x">analysatorAC.vH1[1].mean2.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.vH1.mean1:x">analysatorAC.vH1[2].mean1.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.vH1.mean2:x">analysatorAC.vH1[2].mean2.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.vH1.mean1:x">analysatorAC.vH1[3].mean1.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.vH1.mean2:x">analysatorAC.vH1[3].mean2.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.vH1.mean1:x">analysatorAC.vH1[4].mean1.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.vH1.mean2:x">analysatorAC.vH1[4].mean2.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.vH1.mean1:x">analysatorAC.vH1[5].mean1.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.vH1.mean2:x">analysatorAC.vH1[5].mean2.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.vH1.mean1:x">analysatorAC.vH1[6].mean1.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.vH1.mean2:x">analysatorAC.vH1[6].mean2.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.voltageLine2Line.mean1:x">analysatorAC.voltageLine2Line[1].mean1.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.voltageLine2Line.mean2:x">analysatorAC.voltageLine2Line[1].mean2.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.voltageLine2Line.mean1:x">analysatorAC.voltageLine2Line[2].mean1.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.voltageLine2Line.mean2:x">analysatorAC.voltageLine2Line[2].mean2.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.voltageLine2Line.mean1:x">analysatorAC.voltageLine2Line[3].mean1.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.voltageLine2Line.mean2:x">analysatorAC.voltageLine2Line[3].mean2.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.voltageLine2Line.mean1:x">analysatorAC.voltageLine2Line[4].mean1.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.voltageLine2Line.mean2:x">analysatorAC.voltageLine2Line[4].mean2.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.voltageLine2Line.mean1:x">analysatorAC.voltageLine2Line[5].mean1.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.voltageLine2Line.mean2:x">analysatorAC.voltageLine2Line[5].mean2.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.voltageLine2Line.mean1:x">analysatorAC.voltageLine2Line[6].mean1.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorAC.voltageLine2Line.mean2:x">analysatorAC.voltageLine2Line[6].mean2.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorDC.meanCurrent:x">analysatorDC[1].meanCurrent.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorDC.meanVoltage:x">analysatorDC[1].meanVoltage.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorDC.powerTotal:x">analysatorDC[1].powerTotal.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorDC.meanCurrent:x">analysatorDC[2].meanCurrent.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorDC.meanVoltage:x">analysatorDC[2].meanVoltage.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorDC.powerTotal:x">analysatorDC[2].powerTotal.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorDCload.meanCurrent:x">analysatorDCload.meanCurrent.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorDCload.meanVoltage:x">analysatorDCload.meanVoltage.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$analysatorDCload.powerTotal:x">analysatorDCload.powerTotal.x</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$inductorDC1:i">inductorDC1[1].i</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$inductorDC1:i">inductorDC1[2].i</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$inductorDC2:i">inductorDC2[1].i</a>
+<a href="Modelica://Modelica.Electrical.Polyphase.Examples.PolyphaseRectifier#text$inductorDC2:i">inductorDC2[2].i</a>
+Finished

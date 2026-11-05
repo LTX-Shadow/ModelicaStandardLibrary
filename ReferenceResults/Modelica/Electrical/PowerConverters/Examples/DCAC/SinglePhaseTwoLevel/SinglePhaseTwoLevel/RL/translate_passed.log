@@ -1,0 +1,38 @@
+Translation of <a href="Modelica://Modelica.Electrical.PowerConverters.Examples.DCAC.SinglePhaseTwoLevel.SinglePhaseTwoLevel_RL">Modelica.Electrical.PowerConverters.Examples.DCAC.SinglePhaseTwoLevel.SinglePhaseTwoLevel_RL</a>
+The DAE has 177 scalar unknowns and 177 scalar equations.
+
+Statistics
+
+Original Model
+  Number of components: 43
+  Variables: 320
+  Constants: 8 (8 scalars)
+  Parameters: 139 (139 scalars)
+  Unknowns: 173 (177 scalars)
+  Differentiated variables: 5 scalars
+  Equations: 183
+  Nontrivial: 160
+Translated Model
+  Constants: 63 scalars
+  Free parameters: 49 scalars
+  Parameter depending: 47 scalars
+  Continuous time states: 5 scalars
+  Time-varying variables: 60 scalars
+  Alias variables: 105 scalars
+  Number of mixed real/discrete systems of equations: 1
+  Sizes of linear systems of equations: {11}
+  Sizes after manipulation of the linear systems: {4}
+  Sizes of nonlinear systems of equations: { }
+  Sizes after manipulation of the nonlinear systems: { }
+  Number of numerical Jacobians: 0
+
+Settings
+Advanced.StoreProtectedVariables = true
+Selected continuous time states
+Statically selected continuous time states
+<a href="Modelica://Modelica.Electrical.PowerConverters.Examples.DCAC.SinglePhaseTwoLevel.SinglePhaseTwoLevel_RL#text$fundamentalWaveCurrent.mean1:x">fundamentalWaveCurrent.mean1.x</a>
+<a href="Modelica://Modelica.Electrical.PowerConverters.Examples.DCAC.SinglePhaseTwoLevel.SinglePhaseTwoLevel_RL#text$fundamentalWaveCurrent.mean2:x">fundamentalWaveCurrent.mean2.x</a>
+<a href="Modelica://Modelica.Electrical.PowerConverters.Examples.DCAC.SinglePhaseTwoLevel.SinglePhaseTwoLevel_RL#text$fundamentalWaveVoltage.mean1:x">fundamentalWaveVoltage.mean1.x</a>
+<a href="Modelica://Modelica.Electrical.PowerConverters.Examples.DCAC.SinglePhaseTwoLevel.SinglePhaseTwoLevel_RL#text$fundamentalWaveVoltage.mean2:x">fundamentalWaveVoltage.mean2.x</a>
+<a href="Modelica://Modelica.Electrical.PowerConverters.Examples.DCAC.SinglePhaseTwoLevel.SinglePhaseTwoLevel_RL#text$inductor:i">inductor.i</a>
+Finished
